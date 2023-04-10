@@ -1,14 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-  }
-  
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 15vh;
+  padding: 20px;
+}
+
+.headerWrapper {
+  /* border: 1px solid green; */
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.banner {
+  /* border: 1px solid brown; */
+  display: flex;
+  flex-direction: row;
+  /* width: 50%; */
+}
+
+.logo {
+  /* border: 1px solid black; */
+  height: 100%;
+  display: flex;
+  padding: 10px;
+}
+
+.logo img {
+  height: 100%;
+  border-radius: 42%;
+}
+
+.storeName {
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  font-size: 50px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+.storeName h1 {
+  margin: 0;
+  padding: 0;
+  color: #004863;
+
+}
+
+.nav {
+  width: 40%;
+  display: flex;
+}
+
+.nav ul {
+  /* border: 2px solid red; */
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+.nav li {
+  /* border: 1px solid green; */
+  color: #004863;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.designSection {
+  height: 85vh;
+  overflow: hidden;
+}
+
+.design {
+  transform: scale(1.5);
+}

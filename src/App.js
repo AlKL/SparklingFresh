@@ -1,11 +1,54 @@
+import logo from './images/logo.png'
+import design from './images/design.svg'
+
 const App = () => {
 	return (
 		<div className="App">
-			Hello World!
 
-			<div className="header">
+			<header>
 
+				<div className='headerWrapper'>
+
+					<div className='banner'>
+						<div className="logo">
+							<img src={logo} className='logImg' alt='Water cooler icon.'></img>
+						</div>
+						<div className="storeName">
+							<h1>Sparkling Fresh Water</h1>
+						</div>
+					</div>
+
+
+
+
+					<div className="nav">
+						<ul>
+							<li>Home</li>
+							<li>Products</li>
+							<li>Location</li>
+							<li>Contact</li>
+						</ul>
+					</div>
+				</div>
+
+
+			</header>
+
+			<div className="relative flex designSection">
+				<div className="relative my-4 grid w-full grid-cols-4 grid-rows-3 gap-2">
+					<div className="z-20 col-start-1 col-end-4 row-start-1 row-end-2 rounded-r-xl bg-transparent ring-8 ring-white"></div>
+					<div className="z-20 col-start-1 col-end-2 row-start-2 row-end-4 rounded-r-xl bg-white ring-8 ring-white"></div>
+					<div className="z-20 col-start-2 col-end-3 row-start-2 row-end-4 rounded-xl bg-transparent ring-8 ring-white"></div>
+					<div className="z-20 col-start-3 col-end-5 row-start-2 row-end-3 rounded-l-xl bg-transparent ring-8 ring-white"></div>
+					<div className="z-20 col-start-3 col-end-5 row-start-3 row-end-4 rounded-l-xl bg-transparent ring-8 ring-white"></div>
+					<img className="absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-1/2 scale-125 h-fit" src={design} alt="mascoot" />
+					<div className="col-start-1 col-end-4 row-start-1 row-end-2 rounded-r-xl bg-cyan-400"></div>
+					<div className="col-start-2 col-end-3 row-start-2 row-end-4 rounded-xl bg-slate-400"></div>
+					<div className="col-start-3 col-end-5 row-start-2 row-end-3 rounded-l-xl bg-indigo-300"></div>
+					<div className="col-start-3 col-end-5 row-start-3 row-end-4 rounded-l-xl bg-lime-600"></div>
+				</div>
 			</div>
+
 
 		</div>
 	);
