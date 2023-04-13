@@ -16,6 +16,11 @@ code {
     monospace;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   /* border: 1px solid red; */
   display: flex;
@@ -75,6 +80,10 @@ header {
   display: flex;
 }
 
+.nav a {
+  text-decoration: none;
+}
+
 .nav ul {
   /* border: 2px solid red; */
   list-style-type: none;
@@ -89,6 +98,12 @@ header {
   color: #004863;
   font-weight: bold;
   font-size: 25px;
+  border-radius: 15%;
+  padding: 10px;
+}
+
+.nav li:active {
+  background-color: slategrey;
 }
 
 .designSection {
@@ -98,4 +113,56 @@ header {
 
 .design {
   transform: scale(1.5);
+}
+
+.item-text-1 {
+  display: flex;
+  margin-left: 24%;
+  /* border: 1px solid black; */
+  flex-direction: column;
+  justify-content: center;
+  /* padding-left: 20px; */
+  color: #004863;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.item-text-2 {
+  display: flex;
+  margin-left: 400px;
+  border: 1px solid black;
+  flex-direction: column;
+  justify-content: center;
+  /* padding-left: 20px; */
+  color: purple;
+  font-size: 25px;
+  font-weight: bold;
+  width: 300px;
+}
+
+.item-text-3 {
+  display: flex;
+  margin-left: 400px;
+  border: 1px solid black;
+  flex-direction: column;
+  justify-content: center;
+  /* padding-left: 20px; */
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  width: 300px;
+}
+
+.itemName {
+  font-size: 40px;
+}
+
+.itemPrice {
+  font-size: 50px;
+  opacity: 55%;
+}
+
+.price {
+  margin: 0;
+  padding: 0;
 }

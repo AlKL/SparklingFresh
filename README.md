@@ -1,5 +1,10 @@
 Sparkling Fresh Water 2.0
 
+# Notes
+Add a small legend to the right of the brown panda with the prices, the price should be in the whitespace and bigger font than the name
+Also should be a different font
+The other current prices should be replaced with notes about the water ie affordability, reverse-osmosis, local
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
