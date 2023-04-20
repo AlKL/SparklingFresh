@@ -33,7 +33,7 @@ header {
 .headerWrapper {
   /* border: 1px solid green; */
   height: 100%;
-  width: 80%;
+  width: 70%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -97,7 +97,7 @@ header {
   /* border: 1px solid green; */
   color: #004863;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 38px;
   border-radius: 15%;
   padding: 10px;
 }
@@ -165,4 +165,12 @@ header {
 .price {
   margin: 0;
   padding: 0;
+}
+
+/* [class^="col-start"] {
+  border: 2px solid black;
+} */
+
+img {
+
 }
