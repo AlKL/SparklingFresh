@@ -1,0 +1,69 @@
+.hero {
+    height: 58vh;
+}
+
+.gradient {
+    background: linear-gradient(110deg, #FEEEC7, #FEEEC7 50%, transparent 0), linear-gradient(110deg, #EE2C74 90%, #7C1366 0);
+}
+
+.heroContainer {
+    /* height: calc(25vh + 400px); */
+    /* max-height: 750px; */
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+.heroLeftContainer {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid green; */
+}
+
+.topText {
+    background-color: #7C1366;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 21px;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midText {
+    margin: 15px 0;
+    font-weight: 700;
+    font-size: 30px;
+    color: #7C1366;
+    /* border: 1px dotted black; */
+}
+
+.btmText {
+    font-size: 22px;
+    font-weight: 500;
+    color: #EE2C74;
+}
+
+.heroRightContainer {
+    width: 520px;
+    /* border: 1px solid yellowgreen; */
+}
+
+.heroImageContainer {
+    height: 700px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.heroImage {
+    height: 100%;
+}

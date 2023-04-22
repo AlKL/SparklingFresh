@@ -1,0 +1,63 @@
+.services {
+    height: 27vh;
+    background-color: whitesmoke;
+}
+
+.cardContainer {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.serviceCard {
+    width: 30%;
+    background-color: #F9F6A5;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceCardContainer {
+    width: 90%;
+    border: 1px dotted black;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftServiceCard {
+    width: 70%;
+    border: 1px dotted red;
+}
+
+.topServiceCard {
+    color: #DF3D0C;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.midServiceCard {
+    margin: 20px 0;
+    color: #7C1366;
+    font-weight: bold;
+}
+
+.rightServiceCard {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px dotted black; */
+}
+
+.bearContainer {
+    height: 50px;
+    /* border: 1px dotted black; */
+}
+
+.bearContainer img {
+    height: 100%;
+}
