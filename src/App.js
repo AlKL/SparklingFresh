@@ -20,20 +20,6 @@ const App = () => {
 
 			<div className='sectionWrapper'>
 				<div className='sectionWrapperWidth'>
-					<h1>Location And Hours</h1>
-				</div>
-			</div>
-
-			<div className='sectionWrapper wcsfBody'>
-				<div className='sectionWrapperWidth'>
-					<div className='wcsfTabContainer'>
-
-					</div>
-				</div>
-			</div>
-
-			<div className='sectionWrapper'>
-				<div className='sectionWrapperWidth'>
 					<h1>Shop for other products too!</h1>
 				</div>
 			</div>
@@ -42,14 +28,6 @@ const App = () => {
 				<div className='sectionWrapperWidth'>
 					<div className='otherProductsContainer'>
 
-					</div>
-				</div>
-			</div>
-
-			<div className='sectionWrapper location'>
-				<div className='sectionWrapperWidth'>
-					<div className=''>
-						<p>Map map backpack</p>
 					</div>
 				</div>
 			</div>
@@ -69,6 +47,8 @@ const App = () => {
 					</div>
 				</div>
 			</div>
+
+
 		</div>
 	);
 }
