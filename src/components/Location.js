@@ -1,6 +1,8 @@
 import '../styles/location.css';
 import Map from './Map'
 
+// Fix loading map visual
+
 const Location = () => {
     return (
         <>
@@ -10,12 +12,9 @@ const Location = () => {
                 </div>
             </div>
 
-
-
             <div className='locationBody sectionWrapper'>
                 <div className='sectionWrapperWidth'>
                     <div className='locationWrapper'>
-
 
                         <div className='locationContainer'>
                             <Map />
@@ -39,14 +38,9 @@ const Location = () => {
                             </div>
                         </div>
 
-
                     </div>
                 </div>
             </div>
-
-
-
-
         </>
     )
 }

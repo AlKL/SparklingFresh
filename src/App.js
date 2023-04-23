@@ -18,19 +18,9 @@ const App = () => {
 
 
 
-			<div className='sectionWrapper'>
-				<div className='sectionWrapperWidth'>
-					<h1>Shop for other products too!</h1>
-				</div>
-			</div>
 
-			<div className='sectionWrapper'>
-				<div className='sectionWrapperWidth'>
-					<div className='otherProductsContainer'>
 
-					</div>
-				</div>
-			</div>
+
 
 			<div className='sectionWrapper questionForm'>
 				<div className='sectionWrapperWidth'>

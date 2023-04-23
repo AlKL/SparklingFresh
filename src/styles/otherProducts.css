@@ -1,0 +1,31 @@
+.otherProductsTitle {
+    border: 1px dotted red;
+}
+
+.opContainer {
+    height: 602px;
+    border: 1px dotted green;
+}
+
+.opCardContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opCard {
+    height: 100%;
+    border: 1px dotted black;
+    width: 24%;
+}
+
+.opCardImg {
+    height: 72%;
+    border: 1px dotted red;
+}
+
+.opCardPrice {
+    height: 28%;
+    border: 2px dotted black;
+}
