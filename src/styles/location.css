@@ -1,10 +1,17 @@
+.locationTitle {
+    color: #0D3472;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .locationBody h1, .locationBody h2, .locationBody h3 {
     margin: 0;
     padding: 0;
 }
 
 .locationBody {
-    background-color: #C1F2E8;
+    background-color: #FFF7D6;
 }
 
 .locationWrapper {
@@ -17,20 +24,25 @@
 .locationContainer {
     width: 60%;
     height: 100%;
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
 }
 
 .hoursContainer {
+    color: #0D3472;
     width: 40%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px dotted orange;
+    /* border: 1px dotted orange; */
 }
 
 .hoursList {
     height: 80%;
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
     padding-left: 20px;
+}
+
+.hoursList h3 {
+    padding-bottom: 12px;
 }

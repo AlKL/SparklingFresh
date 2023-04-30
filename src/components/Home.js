@@ -2,7 +2,7 @@ import Hero from './Hero'
 import Services from './Services'
 import Location from './Location'
 import OtherProducts from './OtherProducts'
-import Questionnaire from './Questionnaire'
+import Fact from './Fact'
 
 // Home contains
 // 1. Main page contents - everything but the header, footer, and other tab's contents
@@ -14,7 +14,7 @@ const Home = () => {
             <Services />
             <Location />
             <OtherProducts />
-            <Questionnaire />
+            <Fact />
         </>
     )
 }

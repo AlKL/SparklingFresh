@@ -1,0 +1,28 @@
+.factSectionContainer {
+    height: 200px;
+    margin: 20px 0;
+    color: white;
+    font-weight: bold;
+}
+
+.factContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px dotted green; */
+    background-color: #C3615A;
+    padding-left: 20px;
+}
+
+.factTop {
+    width: 100%;
+    /* border: 1px dotted white; */
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+.factMid {
+    width: 100%;
+}

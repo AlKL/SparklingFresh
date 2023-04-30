@@ -1,0 +1,41 @@
+.footer {
+    z-index: 0;
+    background-color: black;
+    color: white;
+}
+
+.footerContainer {
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px dotted yellow; */
+}
+
+.leftFooter {
+    /* border: 1px solid white; */
+    /* height: 80%; */
+}
+
+.rightFooter {
+    height: 80%;
+    /* border: 1px solid white; */
+}
+
+.seeYou {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 175px;
+    /* border: 1px dotted white; */
+}
+
+.icon {
+    height: 50px;
+    z-index: 1;
+    position: relative;
+}

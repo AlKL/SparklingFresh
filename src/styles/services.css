@@ -12,7 +12,7 @@
 
 .serviceCard {
     width: 30%;
-    background-color: #F9F6A5;
+    background-color: #F3EADA;
     border-radius: 5%;
 
     display: flex;
@@ -23,25 +23,31 @@
 
 .serviceCardContainer {
     width: 90%;
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
     display: flex;
     flex-direction: row;
 }
 
 .leftServiceCard {
     width: 70%;
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
 }
 
 .topServiceCard {
-    color: #DF3D0C;
+    color: #0D3472;
     font-size: 24px;
     font-weight: bold;
 }
 
 .midServiceCard {
     margin: 20px 0;
-    color: #7C1366;
+    color: #4683CF;
+    font-weight: bold;
+}
+
+.btmServiceCard {
+    font-size: 40px;
+    color: #FF6DAD;
     font-weight: bold;
 }
 

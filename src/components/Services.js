@@ -15,8 +15,8 @@ const Services = () => {
                     <div className='serviceCard'>
                         <div className='serviceCardContainer'>
                             <div className='leftServiceCard'>
-                                <div className='topServiceCard'>First Time?</div>
-                                <div className='midServiceCard'>Buy a full bottle of water to take home for $14.</div>
+                                <div className='topServiceCard'>First Time? Come on in!</div>
+                                <div className='midServiceCard'>Buy a full bottle of water to take home.</div>
                                 <div className='btmServiceCard'>$14</div>
                             </div>
                             <div className='rightServiceCard'>
@@ -31,7 +31,7 @@ const Services = () => {
                         <div className='serviceCardContainer'>
                             <div className='leftServiceCard'>
                                 <div className='topServiceCard'>Next time just bring the bottle!</div>
-                                <div className='midServiceCard'>You can bring the bottle back and get a full refill for $4.</div>
+                                <div className='midServiceCard'>You can bring the bottle back and get a full refill.</div>
                                 <div className='btmServiceCard'>$4</div>
                             </div>
                             <div className='rightServiceCard'>
@@ -46,7 +46,7 @@ const Services = () => {
                         <div className='serviceCardContainer'>
                             <div className='leftServiceCard'>
                                 <div className='topServiceCard'>Just want an empty bottle?</div>
-                                <div className='midServiceCard'>Only $10 and you can use it to fill water whenever you want.</div>
+                                <div className='midServiceCard'>You can use it to fill water whenever you want.</div>
                                 <div className='btmServiceCard'>$10</div>
                             </div>
                             <div className='rightServiceCard'>

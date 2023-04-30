@@ -1,14 +1,22 @@
 import '../styles/header.css';
 import logo from '../images/logo.png'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 // Header contains
 // 1. Logo
 // 2. Router buttons to About, etc
 // 3. Call button
+// 4. Phone number
 // - add store name somewhere Sparkling Fresh Water
+// - dark mode
 
 const Header = () => {
+    const locationPathname = useLocation().pathname;
+
+    const home = locationPathname == '/' ? 'active' : ''
+    const about = locationPathname == '/about' ? 'active' : ''
+    const contact = locationPathname == '/contact' ? 'active' : ''
+
     return (
         <>
             <div className='header sectionWrapper'>
@@ -17,10 +25,9 @@ const Header = () => {
                         <Link to='/'><img src={logo}></img></Link>
                     </div>
                     <ul className="headerMenu">
-                        <li><Link to='/about'>About</Link></li>
-                        <li>Products</li>
-                        <li>Our Process</li>
-                        <li>Contact</li>
+                        <li className={home}><Link to='/'>Home</Link></li>
+                        <li className={about}><Link to='/about'>About</Link></li>
+                        <li className={contact}><Link to='/contact'>Contact</Link></li>
                     </ul>
                 </div>
             </div>

@@ -1,14 +1,15 @@
 import '../styles/location.css';
 import Map from './Map'
 
-// Fix loading map visual
+// Fix loading... map visual
+// Highlight which day it is using https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay
 
 const Location = () => {
     return (
         <>
             <div className='sectionWrapper'>
-                <div className='sectionWrapperWidth'>
-                    <h1>Location And Hours</h1>
+                <div className='locationTitle sectionWrapperWidth'>
+                    <h1>1722 Jane Street</h1>
                 </div>
             </div>
 
