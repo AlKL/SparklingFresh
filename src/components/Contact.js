@@ -1,14 +1,59 @@
 import '../styles/contact.css';
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-// Need to validate the input on submit
+// Use re-captcha
 
 const Questionnaire = () => {
     const form = useRef();
+    const [nameError, setNameError] = useState('');
+    const [emailError, setEmailError] = useState('');
+
+    const validateName = (name) => {
+        // Use a regular expression to check if the name is valid
+        const nameRegex = /^[A-Za-z]+([\s]?[A-Za-z]+)*$/;
+        return nameRegex.test(name);
+    }
+
+    const validateEmail = (email) => {
+        // Use a regular expression to check if the email is valid
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+
+    const handleNameBlur = (e) => {
+        const name = e.target.value;
+        if (!validateName(name)) {
+            setNameError('Invalid name');
+        } else {
+            setNameError('');
+        }
+    }
+
+    const handleEmailBlur = (e) => {
+        const email = e.target.value;
+        if (!validateEmail(email)) {
+            setEmailError('Invalid email address');
+        } else {
+            setEmailError('');
+        }
+    }
 
     const sendEmail = (e) => {
         e.preventDefault();
+
+        // Check if the name and email are valid before submitting the form
+        const name = form.current.from_name.value;
+        if (!validateName(name)) {
+            setNameError('Invalid name');
+            return;
+        }
+
+        const email = form.current.email_id.value;
+        if (!validateEmail(email)) {
+            setEmailError('Invalid email address');
+            return;
+        }
 
         emailjs.sendForm(process.env.REACT_APP_EMAIL_JS_SERVICE_ID,
             process.env.REACT_APP_EMAIL_JS_TEMPLATE_ID,
@@ -29,23 +74,22 @@ const Questionnaire = () => {
                         <div className='formBackground'>
                             <div className='formTitle'>
                                 <h1>Love to hear from you,</h1>
-                                <h1>Get in touch !!!</h1>
+                                <h1>Get in touch!</h1>
                             </div>
                             <div className='labelContainer'>
-                                <label className='labelTest'>Name</label>
-                                <input type="text" name="from_name" />
-                                <label>Email</label>
-                                <input type="email" name="email_id" />
+                                {nameError ? <span className="error">{nameError}</span> : <label>Name</label>}
+                                <input className='inputFull' type="text" name="from_name" onBlur={handleNameBlur} required />
+                                {emailError ? <span className="error">{emailError}</span> : <label>Email Address</label>}
+                                <input className='inputFull' type="email" name="email_id" onBlur={handleEmailBlur} required />
                                 <label>Message</label>
                                 <textarea name="message" />
-                                <input type="submit" value="Send" />
+                                <input className='inputSubmit' type="submit" value="Send" />
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
         </>
-
     );
 }
 

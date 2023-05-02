@@ -14,15 +14,17 @@
     /* border: 1px dotted green; */
     background-color: #C3615A;
     padding-left: 20px;
+    border-radius: 5px;
 }
 
 .factTop {
     width: 100%;
     /* border: 1px dotted white; */
-    font-size: 30px;
+    font-size: 35px;
     padding-bottom: 25px;
 }
 
 .factMid {
     width: 100%;
+    font-size: 20px;
 }

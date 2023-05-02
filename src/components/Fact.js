@@ -1,6 +1,5 @@
 import '../styles/fact.css';
-
-// Add ocean / water fact api
+// import ocean from '../images/ocean.mp4'
 
 const Fact = () => {
     const facts = [
@@ -55,6 +54,9 @@ const Fact = () => {
     return (
         <>
             <div className='sectionWrapper'>
+                {/* <video autoPlay muted loop id="myVideo">
+                    <source src={ocean} type="video/mp4"/>
+                </video> */}
                 <div className='factSectionContainer sectionWrapperWidth'>
                     <div className='factContainer'>
                         <div className='factTop'>

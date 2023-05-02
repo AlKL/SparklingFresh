@@ -19,15 +19,16 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
-    border: 1px dotted black;
-    background-color: whitesmoke;
+    justify-content: space-around;
     border-radius: 3px;
+    /* border: 1px dotted black; */
+    /* background-color: whitesmoke; */
 }
 
 .formTitle {
-    margin-top: 10vh;
-    border: 1px dotted black;
+    /* margin-top: 8vh; */
+    /* border: 1px dotted black; */
+    font-size: 34px;
     /* height: 300px; */
 }
 
@@ -43,5 +44,32 @@
     /* align-items: center; */
     /* justify-content: space-between; */
     height: 50vh;
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
+}
+
+input {
+    display: block;
+    /* border: 1px dotted green; */
+    /* width: 50%; */
+    height: 32px;
+    margin: 5px 0;
+}
+
+.labelFull {
+    display: block;
+}
+
+.inputFull {
+    display: block;
+    width: 50%;
+}
+
+textarea {
+    display: block;
+    height: 200px;
+    width: 80%;
+}
+
+.error {
+    color: crimson;
 }
