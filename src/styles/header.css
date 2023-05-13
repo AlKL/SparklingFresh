@@ -5,11 +5,13 @@
 }
 
 .headerMenu {
-    width: 35%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     /* border: 1px solid black; */
+    /* width: 200px; */
+    /* border: 1px dotted red; */
 }
 
 .headerMenu li {
@@ -20,9 +22,18 @@
     /* border: 1px solid green; */
 }
 
+.newContainer {
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+}
+
 .headerContainer {
     display: flex;
     flex-direction: row;
+    /* border: 1px dotted green; */
+    justify-content: space-between;
 }
 
 .logoContainer {
@@ -46,4 +57,23 @@ a:hover {
 .active {
     color: #FF6DAD;
     text-decoration: underline;
+}
+
+.newBanner {
+    height: 5.5vh;
+    /* border: 1px dotted red; */
+    font-weight: bold;
+    background-color: #0D3472;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    border-radius: 5px;
+}
+
+.newBannerTop {
+    /* height: 100%; */
+    font-size: 20px;
 }

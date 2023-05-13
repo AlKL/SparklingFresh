@@ -14,7 +14,7 @@ const Hero = () => {
 
                     <div className="heroRightContainer">
                         <div className="heroImageContainer">
-                            <img className='heroImage' src={design}></img>
+                            <img className='heroImage animate__animated animate__bounce' src={design}></img>
                         </div>
                     </div>
                 </div>

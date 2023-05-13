@@ -1,5 +1,6 @@
 import '../styles/header.css';
 import logo from '../images/logo.png'
+import newBanner from '../images/newBanner4.png'
 import { Link, useLocation } from 'react-router-dom'
 
 // Header contains
@@ -21,15 +22,36 @@ const Header = () => {
         <>
             <div className='header sectionWrapper'>
                 <div className="headerContainer sectionWrapperWidth">
-                    <div className='logoContainer'>
-                        <Link to='/'><img src={logo}></img></Link>
+
+                    <div className='newContainer'>
+                        <div className='logoContainer'>
+                            <Link to='/'><img src={logo}></img></Link>
+                        </div>
+
+
+                        <ul className="headerMenu">
+                            <li className={home}><Link to='/'>Home</Link></li>
+                            <li className={about}><Link to='/about'>About</Link></li>
+                            <li className={contact}><Link to='/contact'>Contact</Link></li>
+                        </ul>
+
                     </div>
-                    <ul className="headerMenu">
-                        <li className={home}><Link to='/'>Home</Link></li>
-                        <li className={about}><Link to='/about'>About</Link></li>
-                        <li className={contact}><Link to='/contact'>Contact</Link></li>
-                    </ul>
+
+
+
+                    <div className='newBanner'>
+                        {/* <img src={newBanner}></img> */}
+                        <div className='newBannerTop'>
+                            <p>Sparkling Fresh Water</p>
+                        </div>
+                        <div className='newBannerMid'>
+                            <p>(647) 400-0347</p>
+                        </div>
+                    </div>
+
+
                 </div>
+
             </div>
         </>
     )

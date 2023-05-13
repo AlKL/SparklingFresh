@@ -1,6 +1,6 @@
 .services {
     height: 27vh;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
 }
 
 .cardContainer {
@@ -35,7 +35,7 @@
 
 .topServiceCard {
     color: #0D3472;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
 }
 
@@ -43,10 +43,11 @@
     margin: 20px 0;
     color: #4683CF;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .btmServiceCard {
-    font-size: 40px;
+    font-size: 45px;
     color: #FF6DAD;
     font-weight: bold;
 }
@@ -67,4 +68,8 @@
 
 .bearContainer img {
     height: 100%;
+}
+
+.animate__animated:hover .btmServiceCard {
+    animation-name: pulse;
 }

@@ -7,19 +7,17 @@ import Map from './Map'
 const Location = () => {
     return (
         <>
-            <div className='sectionWrapper'>
+            {/* <div className='locationAllWrap sectionWrapper'>
                 <div className='locationTitle sectionWrapperWidth'>
                     <h1>1722 Jane Street</h1>
                 </div>
-            </div>
+            </div> */}
 
             <div className='locationBody sectionWrapper'>
                 <div className='sectionWrapperWidth'>
                     <div className='locationWrapper'>
 
-                        <div className='locationContainer'>
-                            <Map />
-                        </div>
+
                         <div className='hoursContainer'>
                             <div className='hoursList'>
                                 <h2>Monday</h2>
@@ -38,7 +36,9 @@ const Location = () => {
                                 <h3>11:00am - 4pm</h3>
                             </div>
                         </div>
-
+                        <div className='locationContainer'>
+                            <Map />
+                        </div>
                     </div>
                 </div>
             </div>

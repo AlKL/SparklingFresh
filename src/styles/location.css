@@ -1,8 +1,12 @@
 .locationTitle {
-    color: #0D3472;
+    color: #006B6A;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.locationAllWrap {
+    background-color: #C1F2E8;
 }
 
 .locationBody h1, .locationBody h2, .locationBody h3 {
@@ -11,7 +15,8 @@
 }
 
 .locationBody {
-    background-color: #FFF7D6;
+    background-color: #C1F2E8;
+    padding: 30px 0;
 }
 
 .locationWrapper {
@@ -22,14 +27,14 @@
 }
 
 .locationContainer {
-    width: 60%;
+    width: 75%;
     height: 100%;
     /* border: 1px dotted red; */
 }
 
 .hoursContainer {
-    color: #0D3472;
-    width: 40%;
+    color: #006B6A;
+    width: 25%;
     height: 100%;
     display: flex;
     flex-direction: column;

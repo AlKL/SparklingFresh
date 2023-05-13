@@ -1,9 +1,16 @@
 .formSectionContainer {
     height: 77vh;
     /* margin: 20px 0; */
-    /* border: 1px dotted red; */
+    border: 1px dotted rgb(210, 201, 201);
     font-weight: bold;
     /* color: white; */
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.formSectionContainer:hover {
+    border: 1px solid black;
 }
 
 .formContainer {

@@ -43,13 +43,15 @@
 
 .opCardPrice h1, h2 {
     margin: 0;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .opCardPrice h2 {
     color: #0D3472;
+    font-size: 25px;
 }
 
 .opCardPrice h1 {
     color: #FF6DAD;
+    font-size: 40px;
 }

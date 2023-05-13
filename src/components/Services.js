@@ -12,12 +12,12 @@ const Services = () => {
 
 
 
-                    <div className='serviceCard'>
+                    <div className='serviceCard animate__animated'>
                         <div className='serviceCardContainer'>
                             <div className='leftServiceCard'>
                                 <div className='topServiceCard'>First Time? Come on in!</div>
                                 <div className='midServiceCard'>Buy a full bottle of water to take home.</div>
-                                <div className='btmServiceCard'>$14</div>
+                                <div className='btmServiceCard animate__animated'>$14</div>
                             </div>
                             <div className='rightServiceCard'>
                                 <div className='bearContainer'>
@@ -27,12 +27,12 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className='serviceCard'>
+                    <div className='serviceCard animate__animated'>
                         <div className='serviceCardContainer'>
                             <div className='leftServiceCard'>
                                 <div className='topServiceCard'>Next time just bring the bottle!</div>
                                 <div className='midServiceCard'>You can bring the bottle back and get a full refill.</div>
-                                <div className='btmServiceCard'>$4</div>
+                                <div className='btmServiceCard animate__animated'>$4</div>
                             </div>
                             <div className='rightServiceCard'>
                                 <div className='bearContainer'>
@@ -42,12 +42,12 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className='serviceCard'>
+                    <div className='serviceCard animate__animated'>
                         <div className='serviceCardContainer'>
                             <div className='leftServiceCard'>
                                 <div className='topServiceCard'>Just want an empty bottle?</div>
                                 <div className='midServiceCard'>You can use it to fill water whenever you want.</div>
-                                <div className='btmServiceCard'>$10</div>
+                                <div className='btmServiceCard animate__animated'>$10</div>
                             </div>
                             <div className='rightServiceCard'>
                                 <div className='bearContainer'>
