@@ -1,5 +1,6 @@
 .otherProductsTitle {
     /* border: 1px dotted red; */
+    padding: 50px 0;
 }
 
 .opCardContainer {
@@ -35,23 +36,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding-top: 25px;
 }
 
 .opCardImg img {
     height: 100%;
 }
 
-.opCardPrice h1, h2 {
-    margin: 0;
-    padding-left: 20px;
-}
-
 .opCardPrice h2 {
     color: #0D3472;
-    font-size: 25px;
 }
 
 .opCardPrice h1 {
-    color: #FF6DAD;
-    font-size: 40px;
+    color: #C85380;
 }

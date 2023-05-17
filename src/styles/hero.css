@@ -4,7 +4,7 @@
 
 .gradient {
     /* background: linear-gradient(110deg, #FEEEC7, #FEEEC7 50%, transparent 0), linear-gradient(110deg, #EE2C74 90%, #7C1366 0); */
-    background: linear-gradient(110deg, #C7E6FF, #C7E6FF 50%, transparent 0), linear-gradient(110deg, #7485ac 90%, #0D3472 0);
+    background: linear-gradient(110deg, #C7E6FF, #C7E6FF 50%, transparent 0), linear-gradient(110deg, #C85380 90%, #0D3472 0);
 }
 
 .heroContainer {
@@ -28,27 +28,23 @@
     color: #E0E0E0;
     text-align: center;
     border-radius: 20px;
-    height: 80px;
+    height: 50px;
     font-weight: 700;
-    font-size: 30px;
     padding: 5px 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .midText {
     margin: 15px 0;
-    font-weight: 700;
-    font-size: 37px;
     color: #0D3472;
     /* border: 1px dotted black; */
 }
 
 .btmText {
-    font-size: 30px;
-    font-weight: 500;
-    color: #7485ac;
+    color: #C85380;
 }
 
 .heroRightContainer {

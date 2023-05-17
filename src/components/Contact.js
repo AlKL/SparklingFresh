@@ -1,6 +1,7 @@
 import '../styles/contact.css';
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import ReCAPTCHA from "react-google-recaptcha";
 
 // Use re-captcha
 
@@ -8,6 +9,7 @@ const Questionnaire = () => {
     const form = useRef();
     const [nameError, setNameError] = useState('');
     const [emailError, setEmailError] = useState('');
+    const [isVerified, setIsVerified] = useState(false);
 
     const validateName = (name) => {
         // Use a regular expression to check if the name is valid
@@ -66,6 +68,10 @@ const Questionnaire = () => {
             });
     };
 
+    function onCaptchaChange() {
+        setIsVerified(true);
+    }
+
     return (
         <>
             <div className='sectionWrapper'>
@@ -83,6 +89,10 @@ const Questionnaire = () => {
                                 <input className='inputFull' type="email" name="email_id" onBlur={handleEmailBlur} required />
                                 <label>Message</label>
                                 <textarea name="message" />
+                                <ReCAPTCHA
+                                    sitekey="6LcInhUmAAAAAKQLMnlPdyrrr-hRSWP61tz_9ifY"
+                                    onChange={onCaptchaChange}
+                                />
                                 <input className='inputSubmit' type="submit" value="Send" />
                             </div>
                         </div>

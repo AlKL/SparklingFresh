@@ -60,10 +60,10 @@ const Fact = () => {
                 <div className='factSectionContainer sectionWrapperWidth'>
                     <div className='factContainer'>
                         <div className='factTop'>
-                            H2O fact of the day:
+                            <h1>H2O fact of the day</h1>
                         </div>
                         <div className='factMid'>
-                            <p>{factOfTheDay}</p>
+                            <h3>{factOfTheDay}</h3>
                         </div>
                     </div>
                 </div>

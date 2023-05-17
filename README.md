@@ -29,3 +29,11 @@ Sparkling Fresh Water 2.0
 # Yellow, Orange
 # Light green, Dark green
 # Blue
+
+p = 1.375rem/22px
+li = 1.5rem
+h1 = 2.1875rem
+h2 = 1.875rem/30px
+h3 = 1.5rem/24px
+h4 = 1.375rem/22px
+

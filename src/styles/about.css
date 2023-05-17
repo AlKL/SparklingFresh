@@ -6,3 +6,57 @@
     height: 100%;
     border: 1px dotted red;
 }
+
+.rowContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.aboutPic img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.contentRow {
+    display: flex;
+    flex-direction: row;
+    border: 1px dotted black;
+    height: 25vh;
+    /* justify-content: center; */
+}
+
+.aboutRowImageContainer {
+    border: 1px dotted green;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutRowTextContainer {
+    border: 1px dotted black;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.aboutRowTextTop h1 {
+    padding: 0;
+    margin: 0;
+    color: #C85380;
+}
+
+.aboutRowTextMid h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.aboutRowTextMid p {
+    padding: 0;
+    margin: 0;
+    color: #0D3472;
+}

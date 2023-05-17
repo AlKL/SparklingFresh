@@ -42,7 +42,7 @@ const Header = () => {
                     <div className='newBanner'>
                         {/* <img src={newBanner}></img> */}
                         <div className='newBannerTop'>
-                            <p>Sparkling Fresh Water</p>
+                            <h3>Sparkling Fresh Water</h3>
                         </div>
                         <div className='newBannerMid'>
                             <p>(647) 400-0347</p>

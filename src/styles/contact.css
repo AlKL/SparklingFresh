@@ -1,12 +1,12 @@
 .formSectionContainer {
-    height: 77vh;
+    height: calc(75vh - 15px);
     /* margin: 20px 0; */
     border: 1px dotted rgb(210, 201, 201);
     font-weight: bold;
     /* color: white; */
     border-radius: 20px;
     padding: 20px;
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 .formSectionContainer:hover {
@@ -27,16 +27,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border-radius: 3px;
     /* border: 1px dotted black; */
     /* background-color: whitesmoke; */
 }
 
 .formTitle {
-    /* margin-top: 8vh; */
-    /* border: 1px dotted black; */
-    font-size: 34px;
-    /* height: 300px; */
+
 }
 
 .formTitle h1 {

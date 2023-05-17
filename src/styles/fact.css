@@ -1,8 +1,9 @@
 .factSectionContainer {
-    height: 200px;
+    height: 180px;
     margin: 20px 0;
     color: white;
     font-weight: bold;
+    padding: 25px 0;
 }
 
 .factContainer {
@@ -12,7 +13,7 @@
     align-items: center;
     justify-content: center;
     /* border: 1px dotted green; */
-    background-color: #C3615A;
+    background-color: #0D3472;
     padding-left: 20px;
     border-radius: 5px;
 }
@@ -20,11 +21,9 @@
 .factTop {
     width: 100%;
     /* border: 1px dotted white; */
-    font-size: 35px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 .factMid {
     width: 100%;
-    font-size: 20px;
 }

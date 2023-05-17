@@ -1,49 +1,69 @@
+import React, { useEffect } from 'react';
 import '../styles/location.css';
-import Map from './Map'
-
-// Fix loading... map visual
-// Highlight which day it is using https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay
+import Map from './Map';
 
 const Location = () => {
+    useEffect(() => {
+        const today = new Date().getDay(); // Get the current day of the week (0-6, where Sunday is 0)
+        const adjustedToday = (today + 6) % 7; // Adjust today's index to start with Monday (0-6)
+        const days = document.querySelectorAll('.hoursList h3 span'); // Select all the day elements
+
+        // Remove the class 'todayHighlight' from all days
+        days.forEach(day => {
+            day.classList.remove('todayHighlight');
+        });
+
+        // Add the class 'todayHighlight' to the current day
+        days[adjustedToday].classList.add('todayHighlight');
+    }, []);
+
     return (
         <>
-            {/* <div className='locationAllWrap sectionWrapper'>
-                <div className='locationTitle sectionWrapperWidth'>
-                    <h1>1722 Jane Street</h1>
-                </div>
-            </div> */}
-
-            <div className='locationBody sectionWrapper'>
-                <div className='sectionWrapperWidth'>
-                    <div className='locationWrapper'>
-
-
-                        <div className='hoursContainer'>
-                            <div className='hoursList'>
-                                <h2>Monday</h2>
-                                <h3>10:00am - 6pm</h3>
-                                <h2>Tuesday</h2>
-                                <h3>10:00am - 6pm</h3>
-                                <h2>Wednesday</h2>
-                                <h3>Closed</h3>
-                                <h2>Thursday</h2>
-                                <h3>10:00am - 6pm</h3>
-                                <h2>Friday</h2>
-                                <h3>10:00am - 6pm</h3>
-                                <h2>Saturday</h2>
-                                <h3>10:00am - 6pm</h3>
-                                <h2>Sunday</h2>
-                                <h3>11:00am - 4pm</h3>
+            <div className="locationBody sectionWrapper">
+                <div className="sectionWrapperWidth">
+                    <div className="locationWrapper">
+                        <div className="hoursContainer">
+                            <div className="hoursList">
+                                <h1>1722 Jane St.</h1>
+                                <h2>Jane & Lawrence</h2>
+                                <h3>
+                                    <span>Monday</span>
+                                </h3>
+                                <h4>10:00am - 6pm</h4>
+                                <h3>
+                                    <span>Tuesday</span>
+                                </h3>
+                                <h4>10:00am - 6pm</h4>
+                                <h3>
+                                    <span>Wednesday</span>
+                                </h3>
+                                <h4>Closed</h4>
+                                <h3>
+                                    <span>Thursday</span>
+                                </h3>
+                                <h4>10:00am - 6pm</h4>
+                                <h3>
+                                    <span>Friday</span>
+                                </h3>
+                                <h4>10:00am - 6pm</h4>
+                                <h3>
+                                    <span>Saturday</span>
+                                </h3>
+                                <h4>10:00am - 6pm</h4>
+                                <h3>
+                                    <span>Sunday</span>
+                                </h3>
+                                <h4>11:00am - 4pm</h4>
                             </div>
                         </div>
-                        <div className='locationContainer'>
+                        <div className="locationContainer">
                             <Map />
                         </div>
                     </div>
                 </div>
             </div>
         </>
-    )
-}
+    );
+};
 
 export default Location;

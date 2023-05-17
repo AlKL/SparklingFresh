@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className='sectionWrapperWidth'>
                     <div className='footerContainer'>
                         <div className='leftFooter'>
-                            <p className='seeYou'>See you soon!</p>
+                            <h1 className='seeYou'>See you soon!</h1>
                             <p></p>
                         </div>
                         <div className='rightFooter'>

@@ -8,8 +8,8 @@ const Hero = () => {
                 <div className="heroContainer sectionWrapperWidth">
                     <div className="heroLeftContainer">
                         <div className='topText'><p>Buy bottles and come back for refills!</p></div>
-                        <div className='midText'><p>Stay hydrated with your friendly neighbourhood water supplier.</p></div>
-                        <div className='btmText'><p>Local, affordable & water you can trust!</p></div>
+                        <div className='midText'><h1>Stay hydrated with your friendly neighbourhood water supplier.</h1></div>
+                        <div className='btmText'><h4>Local, affordable & water you can trust!</h4></div>
                     </div>
 
                     <div className="heroRightContainer">
@@ -24,10 +24,3 @@ const Hero = () => {
 }
 
 export default Hero;
-
-{/* <p>Water that is</p> */ }
-{/* <p>Local</p> */ }
-{/* <p>Affordable</p> */ }
-{/* <p>Trustworthy</p> */ }
-{/* <p>Pure drinking water filtered by reverse osmosis</p> */ }
-{/* <p>Total dissolved solids less than 10 parts per million</p> */ }

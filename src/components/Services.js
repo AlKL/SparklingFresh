@@ -6,18 +6,21 @@ import polarBear from '../images/polarBear.png'
 const Services = () => {
     return (
         <>
-
             <div className="services sectionWrapper">
                 <div className='cardContainer sectionWrapperWidth'>
-
-
-
                     <div className='serviceCard animate__animated'>
                         <div className='serviceCardContainer'>
                             <div className='leftServiceCard'>
-                                <div className='topServiceCard'>First Time? Come on in!</div>
-                                <div className='midServiceCard'>Buy a full bottle of water to take home.</div>
-                                <div className='btmServiceCard animate__animated'>$14</div>
+                                <div className='topServiceCard'>
+                                    <p>First Time?</p>
+                                    <p>Come on in!</p>
+                                </div>
+                                <div className='midServiceCard'>
+                                    <h3>Buy a full bottle of water to take home.</h3>
+                                </div>
+                                <div className='btmServiceCard animate__animated'>
+                                    <h1>$14</h1>
+                                </div>
                             </div>
                             <div className='rightServiceCard'>
                                 <div className='bearContainer'>
@@ -30,9 +33,16 @@ const Services = () => {
                     <div className='serviceCard animate__animated'>
                         <div className='serviceCardContainer'>
                             <div className='leftServiceCard'>
-                                <div className='topServiceCard'>Next time just bring the bottle!</div>
-                                <div className='midServiceCard'>You can bring the bottle back and get a full refill.</div>
-                                <div className='btmServiceCard animate__animated'>$4</div>
+                                <div className='topServiceCard'>
+                                    <p>Next time,</p>
+                                    <p>just bring the bottle!</p>
+                                </div>
+                                <div className='midServiceCard'>
+                                    <h3>You can bring the bottle back and get a full refill.</h3>
+                                </div>
+                                <div className='btmServiceCard animate__animated'>
+                                    <h1>$4</h1>
+                                </div>
                             </div>
                             <div className='rightServiceCard'>
                                 <div className='bearContainer'>
@@ -45,9 +55,15 @@ const Services = () => {
                     <div className='serviceCard animate__animated'>
                         <div className='serviceCardContainer'>
                             <div className='leftServiceCard'>
-                                <div className='topServiceCard'>Just want an empty bottle?</div>
-                                <div className='midServiceCard'>You can use it to fill water whenever you want.</div>
-                                <div className='btmServiceCard animate__animated'>$10</div>
+                                <div className='topServiceCard'>
+                                    <p>Just want an empty bottle?</p>
+                                </div>
+                                <div className='midServiceCard'>
+                                    <h3>You can use it to fill water whenever you want.</h3>
+                                </div>
+                                <div className='btmServiceCard animate__animated'>
+                                    <h1>$10</h1>
+                                </div>
                             </div>
                             <div className='rightServiceCard'>
                                 <div className='bearContainer'>
