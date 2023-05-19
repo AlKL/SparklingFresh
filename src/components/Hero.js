@@ -1,5 +1,6 @@
 import design from '../images/design.svg'
 import '../styles/hero.css';
+import tap from '../images/tap.png'
 
 const Hero = () => {
     return (
@@ -9,6 +10,7 @@ const Hero = () => {
                     <div className="heroLeftContainer">
                         <div className='topText'><p>Buy bottles and come back for refills!</p></div>
                         <div className='midText'><h1>Stay hydrated with your friendly neighbourhood water supplier.</h1></div>
+                        {/* <img className='tapImg' src={tap}></img> */}
                         <div className='btmText'><h4>Local, affordable & water you can trust!</h4></div>
                     </div>
 

@@ -1,24 +1,30 @@
 .formSectionContainer {
-    height: calc(75vh - 15px);
+    height: calc(78vh - 13px);
+    /* height: 80vh; */
     /* margin: 20px 0; */
-    border: 1px dotted rgb(210, 201, 201);
     font-weight: bold;
     /* color: white; */
-    border-radius: 20px;
-    padding: 20px;
+    /* padding: 20px; */
     /* margin: 10px; */
+    /* border: 1px dotted red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.formSectionContainer:hover {
+.formContainer:hover {
     border: 1px solid black;
 }
 
 .formContainer {
-    height: 100%;
+    border: 1px dotted rgb(210, 201, 201);
+    height: 95%;
     display: flex;
     align-items: center;
     justify-content: center;
     /* border: 1px dotted green; */
+    border-radius: 10px;
+    padding-left: 20px;
 }
 
 .formBackground {
@@ -31,15 +37,6 @@
     /* background-color: whitesmoke; */
 }
 
-.formTitle {
-
-}
-
-.formTitle h1 {
-    padding: 0;
-    margin: 0;
-}
-
 .labelContainer {
     /* height: 100%; */
     /* width: 100%; */
@@ -50,12 +47,15 @@
     /* border: 1px dotted red; */
 }
 
+label {
+    font-size: 2rem;
+    color: #C85380;
+}
+
 input {
     display: block;
+    font-size: 2rem;
     /* border: 1px dotted green; */
-    /* width: 50%; */
-    height: 32px;
-    margin: 5px 0;
 }
 
 .labelFull {
@@ -64,15 +64,63 @@ input {
 
 .inputFull {
     display: block;
-    width: 50%;
+    width: 90%;
+    margin-bottom: 15px;
+
+    /* width: 50%; */
 }
 
 textarea {
     display: block;
     height: 200px;
-    width: 80%;
+    width: 90%;
 }
 
 .error {
+    color: crimson;
+    font-size: 1.875rem;
+}
+
+.formTitle {
+    color: #0D3472;
+}
+
+.formTitle h1 {
+    padding-bottom: 10px;
+    font-size: 3rem;
+}
+
+.inputSubmit {
+    background-color: #0D3472;
+    color: white;
+    border-radius:5px;
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+
+.captcha {
+    margin-bottom: 20px;
+}
+
+.inputSubmit:hover {
+    border: 2px solid #C85380;
+}
+
+.emailImg {
+    width: 50px;
+    padding-left: 20px;
+}
+
+.thankYouContainer h1 {
+    color: #0D3472
+}
+
+.thankYouContainer h3 {
+    color: #C85380
+}
+
+.captchaConfirm {
+    padding-top: 20px;
+    padding-bottom: 0;
     color: crimson;
 }

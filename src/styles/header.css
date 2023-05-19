@@ -54,8 +54,8 @@ a:hover {
 }
 
 .active {
-    color: #C85380;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    border-bottom: 5px solid #C85380;
 }
 
 .newBanner {

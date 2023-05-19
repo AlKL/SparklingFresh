@@ -29,45 +29,45 @@
 }
 
 .leftServiceCard {
-    width: 60%;
-    border: 1px dotted red;
+    width: 65%;
+    /* border: 1px dotted red; */
 }
 
 .topServiceCard {
     color: #0D3472;
     font-weight: bold;
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
 }
 
 .midServiceCard {
     margin: 20px 0;
     color: #4683CF;
     font-weight: bold;
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
 }
 
 .btmServiceCard {
     color: #C85380;
     font-weight: bold;
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
 }
 
 .rightServiceCard {
-    width: 30%;
+    width: 35%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
 }
 
 .bearContainer {
-    height: 50px;
+    /* width: 10px; */
     /* border: 1px dotted black; */
 }
 
 .bearContainer img {
-    height: 100%;
+    width: 100px;
 }
 
 .animate__animated:hover .btmServiceCard {

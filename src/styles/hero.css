@@ -64,3 +64,8 @@
 .heroImage {
     height: 100%;
 }
+
+.tapImg {
+    width: 100px;
+    margin: 10px 0;
+}

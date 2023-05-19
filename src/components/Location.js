@@ -24,8 +24,14 @@ const Location = () => {
                     <div className="locationWrapper">
                         <div className="hoursContainer">
                             <div className="hoursList">
-                                <h1>1722 Jane St.</h1>
-                                <h2>Jane & Lawrence</h2>
+
+                                <div className='addressBack'>
+                                    <h1>1722 Jane St.</h1>
+                                    <h2>Jane & Lawrence</h2>
+                                </div>
+
+
+
                                 <h3>
                                     <span>Monday</span>
                                 </h3>

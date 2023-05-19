@@ -27,3 +27,8 @@
 .factMid {
     width: 100%;
 }
+
+.factImg {
+    width: 50px;
+    padding-left: 20px;
+}

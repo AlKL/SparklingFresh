@@ -1,5 +1,5 @@
 import '../styles/fact.css';
-// import ocean from '../images/ocean.mp4'
+import factsImg from '../images/facts.png'
 
 const Fact = () => {
     const facts = [
@@ -25,7 +25,7 @@ const Fact = () => {
         "The Great Barrier Reef, located off the coast of Australia, is the largest coral reef system in the world.",
         "Water is used to generate electricity in hydroelectric power plants.",
         "Water can carry electricity because it contains ions that can conduct electricity.",
-        "Water is essential for agriculture, as it is used to irrigate crops.",
+        "Water is essential for agriculture, as it is used to irrigate crops.",//replace
         "The average person can survive for about 3-5 days without water.",
         "Water can be split into hydrogen and oxygen through a process called electrolysis.",
         "The water cycle is the continuous movement of water on, above, and below the Earth's surface.",
@@ -54,13 +54,10 @@ const Fact = () => {
     return (
         <>
             <div className='sectionWrapper'>
-                {/* <video autoPlay muted loop id="myVideo">
-                    <source src={ocean} type="video/mp4"/>
-                </video> */}
                 <div className='factSectionContainer sectionWrapperWidth'>
                     <div className='factContainer'>
                         <div className='factTop'>
-                            <h1>H2O fact of the day</h1>
+                            <h1>H2O fact of the day <img className='factImg' src={factsImg}></img></h1>
                         </div>
                         <div className='factMid'>
                             <h3>{factOfTheDay}</h3>

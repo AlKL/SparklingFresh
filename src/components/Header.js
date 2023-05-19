@@ -38,16 +38,19 @@ const Header = () => {
                     </div>
 
 
+                    <a href='tel:4162417866'>
+                        <div className='newBanner'>
 
-                    <div className='newBanner'>
-                        {/* <img src={newBanner}></img> */}
-                        <div className='newBannerTop'>
-                            <h3>Sparkling Fresh Water</h3>
+                            {/* <img src={newBanner}></img> */}
+                            <div className='newBannerTop'>
+                                <h3>Sparkling Fresh Water</h3>
+                            </div>
+                            <div className='newBannerMid'>
+                                <p>(416) 241-7866</p>
+                            </div>
                         </div>
-                        <div className='newBannerMid'>
-                            <p>(647) 400-0347</p>
-                        </div>
-                    </div>
+                    </a>
+
 
 
                 </div>

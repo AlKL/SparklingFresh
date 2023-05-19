@@ -4,7 +4,7 @@
 
 .aboutContainer {
     height: 100%;
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
 }
 
 .rowContainer {
@@ -16,27 +16,41 @@
 
 .aboutPic img {
     width: 200px;
+    /* height: 250px; */
+    /* height: 200px; */
+    border-radius: 5px;
+}
+
+.aboutPic1 img {
+    width: 175px;
+    /* height: 250px; */
+    /* height: 200px; */
     border-radius: 5px;
 }
 
 .contentRow {
     display: flex;
     flex-direction: row;
-    border: 1px dotted black;
-    height: 25vh;
+    border: 1px dotted rgb(210, 201, 201);
+    height: 24vh;
+    border-radius: 5px;
     /* justify-content: center; */
 }
 
+.contentRow:hover {
+    border: 1px solid black;
+}
+
 .aboutRowImageContainer {
-    border: 1px dotted green;
-    width: 35%;
+    /* border: 1px dotted green; */
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .aboutRowTextContainer {
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
     width: 65%;
     display: flex;
     flex-direction: column;
@@ -45,7 +59,7 @@
 }
 
 .aboutRowTextTop h1 {
-    padding: 0;
+    padding-bottom: 20px;
     margin: 0;
     color: #C85380;
 }

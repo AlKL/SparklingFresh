@@ -1,7 +1,7 @@
 import '../styles/services.css';
-import brownBear from '../images/brownBear.png'
-import pandaBear from '../images/pandaBear.png'
-import polarBear from '../images/polarBear.png'
+import tap from '../images/tap.png'
+import bottle from '../images/bottle.png'
+import water from '../images/water.png'
 
 const Services = () => {
     return (
@@ -16,7 +16,7 @@ const Services = () => {
                                     <p>Come on in!</p>
                                 </div>
                                 <div className='midServiceCard'>
-                                    <h3>Buy a full bottle of water to take home.</h3>
+                                    <h3>Buy a full bottle of water to take home with you.</h3>
                                 </div>
                                 <div className='btmServiceCard animate__animated'>
                                     <h1>$14</h1>
@@ -24,7 +24,7 @@ const Services = () => {
                             </div>
                             <div className='rightServiceCard'>
                                 <div className='bearContainer'>
-                                    <img src={brownBear}></img>
+                                    <img src={bottle}></img>
                                 </div>
                             </div>
                         </div>
@@ -46,7 +46,7 @@ const Services = () => {
                             </div>
                             <div className='rightServiceCard'>
                                 <div className='bearContainer'>
-                                    <img src={pandaBear}></img>
+                                    <img src={tap}></img>
                                 </div>
                             </div>
                         </div>
@@ -56,10 +56,10 @@ const Services = () => {
                         <div className='serviceCardContainer'>
                             <div className='leftServiceCard'>
                                 <div className='topServiceCard'>
-                                    <p>Just want an empty bottle?</p>
+                                    <p>Just want an empty bottle? Sure!</p>
                                 </div>
                                 <div className='midServiceCard'>
-                                    <h3>You can use it to fill water whenever you want.</h3>
+                                    <h3>Bring it to fill water whenever you want.</h3>
                                 </div>
                                 <div className='btmServiceCard animate__animated'>
                                     <h1>$10</h1>
@@ -67,7 +67,7 @@ const Services = () => {
                             </div>
                             <div className='rightServiceCard'>
                                 <div className='bearContainer'>
-                                    <img src={polarBear}></img>
+                                    <img src={water}></img>
                                 </div>
                             </div>
                         </div>
