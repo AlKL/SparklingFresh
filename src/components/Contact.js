@@ -2,7 +2,6 @@ import '../styles/contact.css';
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import ReCAPTCHA from "react-google-recaptcha";
-import email from '../images/email.png'
 import wave from '../images/wave.png'
 import hands from '../images/hands.png'
 
@@ -122,8 +121,8 @@ const Questionnaire = () => {
                         <form className='formContainer' ref={form} onSubmit={sendEmail}>
                             <div className='formBackground'>
                                 <div className='formTitle'>
-                                    <h1>We would like to hear from you. <img className='emailImg' src={wave}></img> </h1>
-                                    <h1>Send us an email! <img className='emailImg' src={email}></img></h1>
+                                    <h1>We would like to hear from you. </h1>
+                                    <h1>Send us an email! <img className='emailImg' src={wave}></img></h1>
                                 </div>
                                 <div className='labelContainer'>
                                     {nameError ? <span className="error">{nameError}</span> : <label>Name</label>}
