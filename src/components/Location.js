@@ -30,8 +30,6 @@ const Location = () => {
                                     <h2>Jane & Lawrence</h2>
                                 </div>
 
-
-
                                 <h3>
                                     <span>Monday</span>
                                 </h3>
