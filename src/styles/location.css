@@ -1,5 +1,5 @@
 .locationTitle {
-    color: #006B6A;
+    color: #006160;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -65,5 +65,5 @@
 }
 
 .addressBack {
-    color: #C85380;
+    color: #006160;
 }

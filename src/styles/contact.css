@@ -1,6 +1,5 @@
 .formSectionContainer {
-    height: calc(78vh - 13px);
-    /* height: 80vh; */
+    height: 1023px;
     /* margin: 20px 0; */
     font-weight: bold;
     /* color: white; */
@@ -43,13 +42,13 @@
     /* display: flex; */
     /* align-items: center; */
     /* justify-content: space-between; */
-    height: 50vh;
+    height: 665px;
     /* border: 1px dotted red; */
 }
 
 label {
     font-size: 2rem;
-    color: #C85380;
+    color: #006160;
 }
 
 input {
@@ -103,7 +102,7 @@ textarea {
 }
 
 .inputSubmit:hover {
-    border: 2px solid #C85380;
+    border: 2px solid #006160;
 }
 
 .emailImg {
@@ -116,7 +115,7 @@ textarea {
 }
 
 .thankYouContainer h3 {
-    color: #C85380
+    color: #006160
 }
 
 .captchaConfirm {

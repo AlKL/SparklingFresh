@@ -1,5 +1,5 @@
 .about {
-    height: 77vh;
+    height: 1023px;
 }
 
 .aboutContainer {
@@ -23,8 +23,6 @@
 
 .aboutPic1 img {
     width: 175px;
-    /* height: 250px; */
-    /* height: 200px; */
     border-radius: 5px;
 }
 
@@ -32,7 +30,7 @@
     display: flex;
     flex-direction: row;
     border: 1px dotted rgb(210, 201, 201);
-    height: 24vh;
+    height: 320px;
     border-radius: 5px;
     /* justify-content: center; */
 }
@@ -61,7 +59,7 @@
 .aboutRowTextTop h1 {
     padding-bottom: 20px;
     margin: 0;
-    color: #C85380;
+    color: #006160;
 }
 
 .aboutRowTextMid h2 {

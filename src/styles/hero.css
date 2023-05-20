@@ -1,14 +1,13 @@
 .hero {
-    height: 58vh;
+    height: 770px;
 }
 
 .gradient {
     /* background: linear-gradient(110deg, #FEEEC7, #FEEEC7 50%, transparent 0), linear-gradient(110deg, #EE2C74 90%, #7C1366 0); */
-    background: linear-gradient(110deg, #C7E6FF, #C7E6FF 50%, transparent 0), linear-gradient(110deg, #C85380 90%, #0D3472 0);
+    background: linear-gradient(110deg, #C7E6FF, #C7E6FF 50%, transparent 0), linear-gradient(110deg, #006160 90%, #0D3472 0);
 }
 
 .heroContainer {
-    /* height: calc(25vh + 400px); */
     /* max-height: 750px; */
     display: flex;
     justify-content: space-between;
@@ -44,7 +43,7 @@
 }
 
 .btmText {
-    color: #C85380;
+    color: #006160;
 }
 
 .heroRightContainer {

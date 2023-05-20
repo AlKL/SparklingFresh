@@ -1,6 +1,6 @@
 
 .header {
-    height: 9vh;
+    height: 120px;
     /* border: 1px solid black; */
 }
 
@@ -36,7 +36,7 @@
 }
 
 .logoContainer {
-    height: 5vh;
+    height: 67px;
 }
 
 .logoContainer img {
@@ -50,16 +50,16 @@ a {
 }
 
 a:hover {
-    color: #C85380;
+    color: #006160;
 }
 
 .active {
     /* text-decoration: underline; */
-    border-bottom: 5px solid #C85380;
+    border-bottom: 5px solid #006160;
 }
 
 .newBanner {
-    height: 5.5vh;
+    height: 74px;
     /* border: 1px dotted red; */
     font-weight: bold;
     background-color: #0D3472;

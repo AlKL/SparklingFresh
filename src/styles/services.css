@@ -1,5 +1,5 @@
 .services {
-    height: 27vh;
+    height: 370px;
     /* background-color: whitesmoke; */
 }
 
@@ -47,7 +47,7 @@
 }
 
 .btmServiceCard {
-    color: #C85380;
+    color: #006160;
     font-weight: bold;
     /* border: 1px dotted black; */
 }
