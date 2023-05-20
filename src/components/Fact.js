@@ -57,7 +57,7 @@ const Fact = () => {
                 <div className='factSectionContainer sectionWrapperWidth'>
                     <div className='factContainer'>
                         <div className='factTop'>
-                            <h1>H2O fact of the day <img className='factImg' src={factsImg}></img></h1>
+                            <h1>H2O fact of the day <img className='factImg' src={factsImg} alt='Icon with the text Did you Know? With a lightbulb beside it.'></img></h1>
                         </div>
                         <div className='factMid'>
                             <h3>{factOfTheDay}</h3>

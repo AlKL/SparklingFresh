@@ -13,7 +13,7 @@ const About = () => {
                         <div className='contentRow'>
                             <div className='aboutRowImageContainer'>
                                 <div className='aboutPic0'>
-                                    <img src={store} alt='Counterstop where water is filled and then capped.'></img>
+                                    <img src={store} alt='A view of the stores shelves'></img>
                                 </div>
                             </div>
                             <div className='aboutRowTextContainer'>
@@ -33,7 +33,7 @@ const About = () => {
                         <div className='contentRow'>
                             <div className='aboutRowImageContainer'>
                                 <div className='aboutPic'>
-                                    <img src={tableTop} alt='A 5 gallon water bottle filled half way being filled.'></img>
+                                    <img src={tableTop} alt='Counterstop where water is filled and then capped.'></img>
                                 </div>
                             </div>
                             <div className='aboutRowTextContainer'>
@@ -72,7 +72,7 @@ const About = () => {
                         <div className='contentRow'>
                             <div className='aboutRowImageContainer'>
                                 <div className='aboutPic'>
-                                    <img src={fillingWater}></img>
+                                    <img src={fillingWater} alt='A 5 gallon water bottle filled half way being filled.'></img>
                                 </div>
                             </div>
                             <div className='aboutRowTextContainer'>
@@ -84,6 +84,7 @@ const About = () => {
                                         Parts per million (PPM) represents the number of parts of a substance per one million parts of water.
                                         What is considered a part is primarily minerals, salts, and other small particles.
                                         Water below 10 PPM is considered extremely pure or dissolved.
+                                        The reverse osmosis process ensures that our water has less than 10 PPM total dissolved solids.
                                     </p>
                                 </div>
                             </div>

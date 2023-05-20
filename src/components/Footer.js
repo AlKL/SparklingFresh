@@ -17,9 +17,9 @@ const Footer = () => {
                         </div>
                         <div className='rightFooter'>
                             <div className='iconContainer'>
-                                <a href='https://goo.gl/maps/6nM4gUobZPumH27dA' target="_blank"><img className='icon' src={googleMapsIcon}></img></a>
-                                <a href='https://www.yelp.ca/biz/sparkling-fresh-water-north-york?utm_campaign=www_business_share_popup&utm_medium=copy_link&utm_source=(direct)' target="_blank"><img className='icon' src={yelpIcon}></img></a>
-                                <a href='https://www.yellowpages.ca/bus/Ontario/York/Sparkling-Fresh-Water/7785807.html' target="_blank"><img className='icon' src={yellowPages}></img></a>
+                                <a href='https://goo.gl/maps/6nM4gUobZPumH27dA' target="_blank"><img className='icon' src={googleMapsIcon} alt='Google Maps Icon'></img></a>
+                                <a href='https://www.yelp.ca/biz/sparkling-fresh-water-north-york?utm_campaign=www_business_share_popup&utm_medium=copy_link&utm_source=(direct)' target="_blank"><img className='icon' src={yelpIcon} alt='Yelp Icon'></img></a>
+                                <a href='https://www.yellowpages.ca/bus/Ontario/York/Sparkling-Fresh-Water/7785807.html' target="_blank"><img className='icon' src={yellowPages} alt='YellowPages Icon.'></img></a>
                             </div>
                         </div>
                     </div>

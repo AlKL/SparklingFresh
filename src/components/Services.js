@@ -24,7 +24,7 @@ const Services = () => {
                             </div>
                             <div className='rightServiceCard'>
                                 <div className='bearContainer'>
-                                    <img src={bottle}></img>
+                                    <img src={bottle} alt='Five gallon bottle icon.'></img>
                                 </div>
                             </div>
                         </div>
@@ -46,7 +46,7 @@ const Services = () => {
                             </div>
                             <div className='rightServiceCard'>
                                 <div className='bearContainer'>
-                                    <img src={tap}></img>
+                                    <img src={tap} alt='Water pipe with water coming down icon.'></img>
                                 </div>
                             </div>
                         </div>
@@ -67,14 +67,11 @@ const Services = () => {
                             </div>
                             <div className='rightServiceCard'>
                                 <div className='bearContainer'>
-                                    <img src={water}></img>
+                                    <img src={water} alt='Empty bottle icon.'></img>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
 

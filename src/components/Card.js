@@ -1,12 +1,12 @@
 import '../styles/otherProducts.css';
 
-const Card = ({ imgSrc, title, price }) => {
+const Card = ({ imgSrc, title, price, alt }) => {
 
     return (
         <>
             <div className='opCard'>
                 <div className='opCardImg'>
-                    <img src={imgSrc}></img></div>
+                    <img src={imgSrc} alt={alt}></img></div>
 
 
                 <div className='opCardPrice'>

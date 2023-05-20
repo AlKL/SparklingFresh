@@ -115,14 +115,17 @@ const Questionnaire = () => {
                     {isSubmitted ? (
                         <div className="thankYouContainer">
                             <h1>Thank you for your email!</h1>
-                            <h3>We appreciate your message and will get back to you soon.  <img className='emailImg' src={hands}></img> </h3>
+                            <h3>
+                                We appreciate your message and will get back to you soon.
+                                <img className='emailImg' src={hands} alt='Emoji of two hands clasped together in a praying form.'></img>
+                            </h3>
                         </div>
                     ) : (
                         <form className='formContainer' ref={form} onSubmit={sendEmail}>
                             <div className='formBackground'>
                                 <div className='formTitle'>
                                     <h1>We would like to hear from you. </h1>
-                                    <h1>Send us an email! <img className='emailImg' src={wave}></img></h1>
+                                    <h1>Send us an email! <img className='emailImg' src={wave} alt='Emoji of a hand waving.'></img></h1>
                                 </div>
                                 <div className='labelContainer'>
                                     {nameError ? <span className="error">{nameError}</span> : <label>Name</label>}
