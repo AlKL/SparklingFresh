@@ -37,3 +37,7 @@ h2 = 1.875rem/30px
 h3 = 1.5rem/24px
 h4 = 1.375rem/22px
 
+Media Quries:
+- 1300px wrapper width
+- min-width: at least this size
+- max-width: at most this size

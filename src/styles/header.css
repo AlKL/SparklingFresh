@@ -1,7 +1,6 @@
 
 .header {
     height: 120px;
-    /* border: 1px solid black; */
 }
 
 .headerMenu {
@@ -9,16 +8,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* border: 1px solid black; */
-    /* width: 200px; */
-    /* border: 1px dotted red; */
 }
 
 .headerMenu li {
     font-weight: 700;
     display: flex;
     flex-direction: column-reverse;
-    /* border: 1px solid green; */
 }
 
 .newContainer {
@@ -60,7 +55,6 @@ a:hover {
 
 .newBanner {
     height: 74px;
-    /* border: 1px dotted red; */
     font-weight: bold;
     background-color: #0D3472;
     color: white;
@@ -72,6 +66,17 @@ a:hover {
     border-radius: 5px;
 }
 
-.newBannerTop {
-    /* height: 100%; */
+@media screen and (max-width: 1200px) {
+    .newContainer {
+        width: 350px;
+        /* border: 1px dotted red; */
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .newContainer {
+        /* width: 350px; */
+        border: 1px dotted red;
+        display: hidden;
+    }
 }
