@@ -19,12 +19,13 @@ ul, p {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px dotted green; */
+  border: 1px dotted green;
 }
 
 .sectionWrapperWidth {
   max-width: 1160px;
-  width: 99%;
+  width: 100%;
+  border: 1px solid red;
 }
 
 body, html {

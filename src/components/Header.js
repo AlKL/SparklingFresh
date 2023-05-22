@@ -10,30 +10,42 @@ const Header = () => {
 
     return (
         <>
-            <div className='header sectionWrapper'>
-                <div className="headerContainer sectionWrapperWidth">
-                    <div className='newContainer'>
-                        <div className='logoContainer'>
-                            <Link to='/'><img src={logo} alt='Icon with full five gallon water bottle.'></img></Link>
-                        </div>
+            <div className='sectionWrapper'>
+                <div className="sectionWrapperWidth">
 
-                        <ul className="headerMenu">
-                            <li className={home}><Link to='/'>Home</Link></li>
-                            <li className={about}><Link to='/about'>About</Link></li>
-                            <li className={contact}><Link to='/contact'>Contact</Link></li>
-                        </ul>
+
+
+
+
+                    <div className='header'>
+
+
+
+                        <div className='newContainer'>
+                            <div className='logoContainer'>
+                                <Link to='/'><img src={logo} alt='Icon with full five gallon water bottle.'></img></Link>
+                            </div>
+                            <ul className="headerMenu">
+                                <li className={home}><Link to='/'>Home</Link></li>
+                                <li className={about}><Link to='/about'>About</Link></li>
+                                <li className={contact}><Link to='/contact'>Contact</Link></li>
+                            </ul>
+                        </div>
+                        <a href='tel:4162417866'>
+                            <div className='newBanner'>
+                                <div className='newBannerTop'>
+                                    <h3>Sparkling Fresh Water</h3>
+                                </div>
+                                <div className='newBannerMid'>
+                                    <p>(416) 241-7866</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
 
-                    <a href='tel:4162417866'>
-                        <div className='newBanner'>
-                            <div className='newBannerTop'>
-                                <h3>Sparkling Fresh Water</h3>
-                            </div>
-                            <div className='newBannerMid'>
-                                <p>(416) 241-7866</p>
-                            </div>
-                        </div>
-                    </a>
+
+
+
                 </div>
             </div>
         </>
