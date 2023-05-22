@@ -1,6 +1,10 @@
 
 .header {
     height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .headerMenu {
@@ -20,13 +24,11 @@
     width: 35%;
     display: flex;
     flex-direction: row;
-    /* border: 1px solid black; */
 }
 
 .headerContainer {
     display: flex;
     flex-direction: row;
-    /* border: 1px dotted green; */
     justify-content: space-between;
 }
 
@@ -49,7 +51,6 @@ a:hover {
 }
 
 .active {
-    /* text-decoration: underline; */
     border-bottom: 5px solid #006160;
 }
 
@@ -67,16 +68,39 @@ a:hover {
 }
 
 @media screen and (max-width: 1200px) {
+    .header {
+        /* justify-content: space-around; */
+        padding: 0 20px;
+        border: 1px dotted red;
+    }
+
     .newContainer {
         width: 350px;
-        /* border: 1px dotted red; */
+        /* padding-right: 20px; */
+        border: 1px dotted green;
     }
+
 }
 
 @media screen and (max-width: 767px) {
-    .newContainer {
-        /* width: 350px; */
-        border: 1px dotted red;
-        display: hidden;
+    .headerMenu {
+        border: 5px dotted red;
+        display: none;
     }
+
+    .header {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .newContainer {
+        display: inline-block;
+
+    }
+
 }
