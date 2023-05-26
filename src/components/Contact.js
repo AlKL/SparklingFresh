@@ -137,7 +137,7 @@ const Questionnaire = () => {
                                     <p className='captchaConfirm'>{captchaError}</p>
                                     <ReCAPTCHA
                                         className='captcha'
-                                        sitekey="6LcInhUmAAAAAKQLMnlPdyrrr-hRSWP61tz_9ifY"
+                                        sitekey={process.env.REACT_APP_GOOGLE_SITE_KEY}
                                         onChange={onCaptchaChange}
                                     />
                                     <input className='inputSubmit' type="submit" value="Send" />
