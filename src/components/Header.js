@@ -8,9 +8,9 @@ import React, { useState, useEffect } from 'react';
 const Header = () => {
     const [navOpen, setNavOpen] = useState(false);
     const locationPathname = useLocation().pathname;
-    const home = locationPathname == '/SparklingFresh/' ? 'active' : ''
-    const about = locationPathname == '/SparklingFresh/about' ? 'active' : ''
-    const contact = locationPathname == '/SparklingFresh/contact' ? 'active' : ''
+    const home = locationPathname == '/' ? 'active' : ''
+    const about = locationPathname == '/about' ? 'active' : ''
+    const contact = locationPathname == '/contact' ? 'active' : ''
 
     useEffect(() => {
         // Disable scrolling when navOpen is true
@@ -51,9 +51,9 @@ const Header = () => {
                             </div>
 
                             <ul className="headerMenu">
-                                <li className={home}><Link to='/SparklingFresh/'>Home</Link></li>
-                                <li className={about}><Link to='/SparklingFresh/about'>About</Link></li>
-                                <li className={contact}><Link to='/SparklingFresh/contact'>Contact</Link></li>
+                                <li className={home}><Link to='/'>Home</Link></li>
+                                <li className={about}><Link to='/about'>About</Link></li>
+                                <li className={contact}><Link to='/contact'>Contact</Link></li>
                             </ul>
                         </div>
 
@@ -77,19 +77,19 @@ const Header = () => {
                                         <ul className="respHeaderMenu">
                                             <div className="longDivider"></div>
                                             <li>
-                                                <Link className="link" to="/SparklingFresh/" onClick={handleBurgerClick}>
+                                                <Link className="link" to="/" onClick={handleBurgerClick}>
                                                     <span className="respLi">Home</span>
                                                 </Link>
                                             </li>
                                             <div className="divider"></div>
                                             <li>
-                                                <Link to="/SparklingFresh/about" onClick={handleBurgerClick}>
+                                                <Link to="/about" onClick={handleBurgerClick}>
                                                     <span className="respLi">About</span>
                                                 </Link>
                                             </li>
                                             <div className="divider"></div>
                                             <li>
-                                                <Link to="/SparklingFresh/contact" onClick={handleBurgerClick}>
+                                                <Link to="/contact" onClick={handleBurgerClick}>
                                                     <span className="respLi">Contact</span>
                                                 </Link>
                                             </li>
