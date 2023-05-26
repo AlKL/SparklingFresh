@@ -27,7 +27,7 @@
 }
 
 .locationContainer {
-    width: 75%;
+    min-width: 75%;
     height: 100%;
     /* border: 1px dotted red; */
 }
@@ -66,4 +66,84 @@
 
 .addressBack {
     color: #006160;
+}
+
+.mapContainer {
+    width: 100%;
+    height: 602px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    .locationWrapper {
+        justify-content: space-around;
+        height: 550px;
+    }
+
+    .hoursContainer {
+        width: initial;
+    }
+
+    .mapContainer {
+        width: 97%;
+        height: 550px;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+
+    .hoursList h3 {
+        font-size: 1.2rem;
+    }
+
+    .hoursList h4 {
+        font-size: 1.1rem;
+    }
+
+    .addressBack h1 {
+        font-size: 1.5rem;
+    }
+
+    .addressBack h2 {
+        font-size: 1.5rem;
+    }
+
+    .locationBody {
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .dayContainer {
+        display: none;
+        visibility: hidden;
+    }
+
+    .locationWrapper {
+        flex-direction: column;
+        height: 550px;
+    }
+
+    .mapContainer {
+        height: 475px;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .locationWrapper {
+        height: 600px;
+    }
+
+    .mapContainer {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .locationWrapper {
+        height: 475px;
+    }
+
+    .mapContainer {
+        height: 375px;
+    }
 }

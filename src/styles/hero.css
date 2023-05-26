@@ -61,6 +61,114 @@
     margin: 10px 0;
 }
 
-@media screen and (min-width: 1200px) {
+/* 1200 to 768 */
+@media screen and (max-width: 1200px) {
+    .hero {
+        height: 500px;
+    }
+
+    .heroImageContainer {
+        height: 400px;
+    }
+
+    .heroLeftContainer {
+        width: 420px;
+    }
+
+    .topText {
+        margin-left: 20px;
+    }
+
+    .midText {
+        margin-left: 20px;
+    }
+
+    .btmText {
+        margin-left: 20px;
+    }
+}
+
+/* Special case */
+@media screen and (max-width: 925px) {
+    .topText p {
+        font-size: 1.11rem;
+    }
+    .btmText h4 {
+        font-size: 1.13rem;
+    }
+}
+
+/* 767 to 451 */
+@media screen and (max-width: 767px) {
+    .hero {
+        height: 665px;
+    }
+
+    .heroContainer {
+        height: 665px;
+    }
+
+    .gradient {
+        background: linear-gradient(171deg,#C7E6FF,#C7E6FF 50%,transparent 0),linear-gradient(186deg,#006160 90%,#0D3472 0);
+    }
+
+    .heroContainer {
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    .heroLeftContainer {
+        width: 100%;
+        /* border: 1px dotted black; */
+    }
+
+    .heroRightContainer {
+        /* border: 1px dotted red; */
+        margin: 0 auto;
+    }
+
+    .topText {
+        padding: 0;
+        /* background-color: transparent; */
+        /* color: black; */
+        /* justify-content: start; */
+        margin-left: 20px;
+        width: 350px;
+    }
+}
+
+/* 535 and under */
+@media screen and (max-width: 535px) {
+    .heroImageContainer {
+        height: 300px;
+        /* border: 1px dotted red; */
+        width: 100%;
+    }
+
+    .heroImageContainer img {
+        /* height: 300px; */
+        /* border: 1px dotted red; */
+    }
+
+    .heroRightContainer {
+        width: 100%;
+    }
+
+    .topText {
+        /* width: 100%; */
+    }
+}
+
+/* 384px and under */
+@media screen and (max-width: 384px) {
+    .topText {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .hero h4 {
+        font-size: .9rem;
+    }
 
 }

@@ -1,0 +1,42 @@
+.hcHide {
+    display: none;
+    visibility: hidden;
+}
+
+.hcDayContainer {
+    /* border: 1px dotted red; */
+    padding: 8px 0;
+}
+
+.hcContainer h3 {
+    margin-bottom: 10px;
+    font-size: 2.4rem;
+}
+
+.hcContainer h1 {
+    font-size: 1.4rem;
+    color: #006160;
+}
+
+.hcContainer h2 {
+    font-size: 1.2rem;
+    color: #0D3472
+}
+
+@media screen and (max-width: 1200px) {
+    .hcContainer {
+        /* border: 1px dotted black; */
+        margin-left: 20px;
+        height: 500px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .hcHide {
+        display: block;
+        visibility: visible;
+    }
+}

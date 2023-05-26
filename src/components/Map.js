@@ -1,4 +1,4 @@
-import '../styles/map.css'
+import '../styles/location.css'
 import { useMemo } from 'react';
 import { GoogleMap, useLoadScript, Marker, MarkerF } from '@react-google-maps/api';
 

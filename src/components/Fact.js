@@ -31,7 +31,7 @@ const Fact = () => {
         "The water cycle is the continuous movement of water on, above, and below the Earth's surface.",
         "The average American household uses about 320 gallons of water per day.",
         "The amount of water on Earth is relatively constant, but its distribution and quality are constantly changing.",
-        "Water is a good insulator, which means it can help keep things warm or cool.",
+        "Water is a good insulator, which means it can help keep things warm or cool. ",
         "Water is sometimes referred to as the 'universal solvent' because of its ability to dissolve many substances.",
         "The Great Lakes, located in North America, contain about 20% of the world's fresh surface water.",
         "Water can act as a lubricant, reducing friction between surfaces.",

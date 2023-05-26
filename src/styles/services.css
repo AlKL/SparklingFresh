@@ -4,14 +4,14 @@
 }
 
 .cardContainer {
-    height: 80%;
+    height: 296px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .serviceCard {
-    width: 30%;
+    width: 347px;
     background-color: #F3EADA;
     border-radius: 20px;
 
@@ -72,4 +72,68 @@
 
 .animate__animated:hover .btmServiceCard {
     animation-name: pulse;
+}
+
+/* 1200 to 1001 */
+@media screen and (max-width: 1200px) {
+    .serviceCard {
+        width: 320px;
+    }
+
+    .cardContainer {
+        height: 250px;
+        /* width: 80%; */
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .topServiceCard p {
+        font-size: 1.2rem;
+    }
+
+    .midServiceCard h3 {
+        font-size: 1.3rem;
+    }
+
+    .serviceCard {
+        width: 32%;
+    }
+
+    .cardContainer {
+        height: 275px;
+    }
+
+    .bearContainer img {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cardContainer {
+        flex-direction: column;
+        align-items: center;
+        /* border: 2px dotted black; */
+        height: 700px;
+    }
+
+    .services {
+        height: 770px;
+        /* border: 1px dotted red; */
+    }
+
+    .serviceCard {
+        width: 325px;
+    }
+
+    .serviceCardContainer {
+        height: 220px;
+        width: 325px;
+        /* padding-top: 5px; */
+        /* border: 1px dotted red; */
+    }
+
+    .leftServiceCard {
+        margin-left: 20px;
+        margin-top: 15px;
+    }
 }

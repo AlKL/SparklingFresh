@@ -7,7 +7,7 @@ const Services = () => {
     return (
         <>
             <div className="services sectionWrapper">
-                <div className='cardContainer sectionWrapperWidth'>
+                <div className='sectionWrapperWidth cardContainer'>
                     <div className='serviceCard animate__animated'>
                         <div className='serviceCardContainer'>
                             <div className='leftServiceCard'>

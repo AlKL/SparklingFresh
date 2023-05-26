@@ -51,3 +51,104 @@
 .opCardPrice h1 {
     color: #006160;
 }
+
+@media screen and (max-width: 1200px) {
+    .opCardContainer {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        /* align-items: center; */
+        margin: 20px;
+        height: 550px;
+    }
+
+    .opCard {
+        width: 34%;
+    }
+
+    .opCardContainer .opCard:nth-child(-n+2) {
+        /* Add your styles for the first 2 Card components here */
+        /* For example: */
+        margin-bottom: 25px;
+    }
+
+    .otherProductsTitle {
+        /* padding: 35px; */
+        margin-left: 20px;
+    }
+
+    .otherBody {
+        height: 1150px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .opCardContainer {
+        height: 400px;
+    }
+
+    .opCardPrice h2 {
+        font-size: 1.5rem;
+    }
+
+    .opCardPrice h1 {
+        font-size: 1.875rem;
+    }
+
+    .opCard {
+        width: 245px;
+    }
+
+    .otherBody {
+        height: 825px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .opCardContainer {
+        height: 300px;
+    }
+
+    .opCardPrice h2 {
+        font-size: 1.3rem;
+    }
+
+    .opCardPrice h1 {
+        font-size: 1.575rem;
+    }
+
+    .opCard {
+        width: 200px;
+    }
+
+    .opCardPrice {
+        padding-top: 0;
+    }
+
+    .otherBody {
+        height: 640px;
+    }
+}
+
+
+@media screen and (max-width: 460px) {
+    .opCardContainer {
+        height: 350px;
+    }
+
+    .opCardPrice h2 {
+        font-size: 1.3rem;
+    }
+
+    .opCardPrice h1 {
+        font-size: 1.575rem;
+    }
+
+    .opCard {
+        width: 300px;
+        margin-bottom: 25px;
+    }
+
+    .otherBody {
+        height: 1480px;
+    }
+}

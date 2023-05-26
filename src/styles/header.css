@@ -67,40 +67,135 @@ a:hover {
     border-radius: 5px;
 }
 
+.longDivider {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); /* Adjust the color and opacity as needed */
+}
+
+.divider {
+    width: 98%;
+    margin: 0 auto; /* Center the divider horizontally */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); /* Adjust the color and opacity as needed */
+}
+
+
+.dropdownWrapper {
+    display: none;
+    visibility: hidden;
+}
+
+.respDropdownMenuContainer {
+    /* border: 1px dotted red; */
+    width: 100%;
+}
+
+.respHeaderMenu a {
+    display: block;
+    padding: 5px 0px;
+    /* border: 1px dotted red; */
+    color: #0D3472;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.respLi {
+    padding-left: 5px;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .newBanner {
+        margin-right: 20px;
+    }
+}
+
+/* 1200 to 768 */
 @media screen and (max-width: 1200px) {
     .header {
-        /* justify-content: space-around; */
         padding: 0 20px;
-        border: 1px dotted red;
+        /* border: 1px dotted red; */
     }
 
     .newContainer {
         width: 350px;
         /* padding-right: 20px; */
-        border: 1px dotted green;
+        /* border: 1px dotted green; */
     }
-
 }
 
+/* 767 to 451 */
 @media screen and (max-width: 767px) {
     .headerMenu {
-        border: 5px dotted red;
         display: none;
     }
 
-    .header {
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .header {
-        flex-direction: column;
+    .logoContainer {
+        display: none;
     }
 
     .newContainer {
-        display: inline-block;
-
+        display: none;
+        visibility: hidden;
     }
 
+    .dropdownWrapper {
+        display: inline-block;
+        visibility: visible;
+    }
+
+    .dropdownWrapper img {
+        width: 50px;
+    }
+
+    .dropdownWrapper img:active {
+        border: 2px solid #006160;
+    }
+
+    .respDropdownMenuContainer {
+        position: fixed;
+        left: 0;
+        top: 120px;
+        /* border: 1px solid black; */
+    }
+
+    .respDropdownMenuContainer {
+        background-color: #C7E6FF;
+    }
+
+    .clickOffMenu {
+        position: fixed;
+        /* border: 2px dotted red; */
+        top: 250px;
+        bottom: 0%;
+        left: 0;
+        right: 0;
+        z-index: 9999; /* Adjust the z-index value as needed */
+        background-color: rgba(128, 128, 128, 0.4); /* Adjust the opacity (0.5 in this case) and RGB values as needed */
+    }
+
+    .newBanner {
+        margin-right: 0;
+    }
+}
+
+/* 450 and under */
+@media screen and (max-width: 450px) {
+    .header {
+        padding-top: 10px;
+        flex-direction: column;
+        height: 150px;
+        justify-content: space-around;
+    }
+
+    .logoContainer {
+        display: none;
+    }
+
+    .respDropdownMenuContainer {
+        top: 150px;
+    }
+
+    .clickOffMenu {
+        top: 282px;
+    }
 }

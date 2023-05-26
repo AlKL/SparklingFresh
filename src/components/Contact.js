@@ -133,7 +133,7 @@ const Questionnaire = () => {
                                     {emailError ? <span className="error">{emailError}</span> : <label>Email</label>}
                                     <input className='inputFull' type="email" name="email_id" onBlur={handleEmailBlur} required />
                                     {messageError ? <span className="error">{messageError}</span> : <label>Message</label>}
-                                    <textarea name="message" onBlur={handleMessageBlur} required />
+                                    <textarea name="message" onBlur={handleMessageBlur} required className='textarea-font-size'/>
                                     <p className='captchaConfirm'>{captchaError}</p>
                                     <ReCAPTCHA
                                         className='captcha'

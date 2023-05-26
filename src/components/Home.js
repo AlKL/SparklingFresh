@@ -3,6 +3,7 @@ import Services from './Services'
 import Location from './Location'
 import OtherProducts from './OtherProducts'
 import Fact from './Fact'
+import Hours from './Hours'
 import 'animate.css';
 
 // Home contains
@@ -16,6 +17,7 @@ const Home = () => {
             <Location />
             <OtherProducts />
             <Fact />
+            <Hours />
         </>
     )
 }

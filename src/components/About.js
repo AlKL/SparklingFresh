@@ -10,12 +10,15 @@ const About = () => {
             <div className='about sectionWrapper'>
                 <div className='aboutContainer sectionWrapperWidth'>
                     <div className='rowContainer'>
+
+
                         <div className='contentRow'>
                             <div className='aboutRowImageContainer'>
                                 <div className='aboutPic0'>
                                     <img src={store} alt='A view of the stores shelves'></img>
                                 </div>
                             </div>
+
                             <div className='aboutRowTextContainer'>
                                 <div className='aboutRowTextTop'>
                                     <h1>Welcome to Sparkling Fresh Water!</h1>
@@ -29,6 +32,8 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
+
+
 
                         <div className='contentRow'>
                             <div className='aboutRowImageContainer'>
@@ -71,7 +76,7 @@ const About = () => {
 
                         <div className='contentRow'>
                             <div className='aboutRowImageContainer'>
-                                <div className='aboutPic'>
+                                <div className='aboutPic2'>
                                     <img src={fillingWater} alt='A 5 gallon water bottle filled half way being filled.'></img>
                                 </div>
                             </div>

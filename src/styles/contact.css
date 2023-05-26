@@ -46,6 +46,11 @@
     /* border: 1px dotted red; */
 }
 
+.textarea-font-size {
+    font-size: 2rem;
+}
+
+
 label {
     font-size: 2rem;
     color: #006160;
@@ -122,4 +127,82 @@ textarea {
     padding-top: 20px;
     padding-bottom: 0;
     color: crimson;
+}
+
+@media screen and (max-width: 1250px) {
+    .formContainer {
+        border: none;
+    }
+
+    .formContainer:hover {
+        border: none;
+    }
+
+    .thankYouContainer {
+        width: 90%;
+        /* border: 1px dotted red; */
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .formTitle h1 {
+        font-size: 1.8rem ;
+    }
+
+    label {
+        font-size: 1.4rem;
+    }
+
+    .textarea-font-size {
+        font-size: 1.4rem;
+    }
+
+    .error {
+        font-size: 1.4rem;
+    }
+
+    .thankYouContainer h1 {
+        /* font-size: 1.8rem; */
+    }
+
+    .thankYouContainer h3 {
+        font-size: 1.4rem;
+    }
+
+
+}
+
+@media screen and (max-width: 725px) {
+    .thankYouContainer {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .thankYouContainer h1 {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 367px) {
+    .formTitle h1 {
+        font-size: 1.8rem ;
+    }
+
+    label {
+        font-size: 1.4rem;
+    }
+
+    .textarea-font-size {
+        font-size: 1.4rem;
+    }
+
+    .captcha {
+        width: 20px;
+    }
+
+    .thankYouContainer h1 {
+        font-size: 1.4rem;
+    }
 }

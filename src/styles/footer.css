@@ -38,3 +38,19 @@
     z-index: 1;
     position: relative;
 }
+
+@media screen and (max-width: 1200px) {
+    .footerContainer {
+        margin-left: 20px;
+    }
+
+    .rightFooter {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footerContainer {
+        /* height: 300px; */
+    }
+}

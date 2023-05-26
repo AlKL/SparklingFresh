@@ -30,34 +30,36 @@ const Location = () => {
                                     <h2>Jane & Lawrence</h2>
                                 </div>
 
-                                <h3>
-                                    <span>Monday</span>
-                                </h3>
-                                <h4>10:00am - 6pm</h4>
-                                <h3>
-                                    <span>Tuesday</span>
-                                </h3>
-                                <h4>10:00am - 6pm</h4>
-                                <h3>
-                                    <span>Wednesday</span>
-                                </h3>
-                                <h4>Closed</h4>
-                                <h3>
-                                    <span>Thursday</span>
-                                </h3>
-                                <h4>10:00am - 6pm</h4>
-                                <h3>
-                                    <span>Friday</span>
-                                </h3>
-                                <h4>10:00am - 6pm</h4>
-                                <h3>
-                                    <span>Saturday</span>
-                                </h3>
-                                <h4>10:00am - 6pm</h4>
-                                <h3>
-                                    <span>Sunday</span>
-                                </h3>
-                                <h4>11:00am - 4pm</h4>
+                                <div className='dayContainer'>
+                                    <div className='day'>
+                                        <h3><span>Monday</span></h3>
+                                        <h4>10am - 6pm</h4>
+                                    </div>
+                                    <div className='day'>
+                                        <h3><span>Tuesday</span></h3>
+                                        <h4>10am - 6pm</h4>
+                                    </div>
+                                    <div className='day'>
+                                        <h3><span>Wednesday</span></h3>
+                                        <h4>Closed</h4>
+                                    </div>
+                                    <div className='day'>
+                                        <h3><span>Thursday</span></h3>
+                                        <h4>10am - 6pm</h4>
+                                    </div>
+                                    <div className='day'>
+                                        <h3><span>Friday</span></h3>
+                                        <h4>10am - 6pm</h4>
+                                    </div>
+                                    <div className='day'>
+                                        <h3><span>Saturday</span></h3>
+                                        <h4>10am - 6pm</h4>
+                                    </div>
+                                    <div className='day'>
+                                        <h3><span>Sunday</span></h3>
+                                        <h4>11am - 4pm</h4>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="locationContainer">

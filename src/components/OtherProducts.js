@@ -15,7 +15,7 @@ const OtherProducts = () => {
             </div>
 
             <div className='sectionWrapper'>
-                <div className='sectionWrapperWidth'>
+                <div className='otherBody sectionWrapperWidth'>
                     <div className='opCardContainer'>
                         <Card imgSrc={pumpBox} title='Bottle hand-pump' price='$20/ea' alt='New box of a drinking water pump with instructions.'/>
                         <Card imgSrc={cupsBox} title='Cone water cups' price='$8/box' alt='New box of paper water cone cups.'/>
