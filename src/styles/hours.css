@@ -23,20 +23,43 @@
     color: #0D3472
 }
 
+.verticalDivider {
+    /* width: 3px; */
+    height: 98%; /* Set the height of the divider */
+    margin: 0 auto; /* Center the divider horizontally */
+    border-left: 1px solid rgba(0, 0, 0, 0.2); /* Adjust the color and opacity as needed */
+}
+
 @media screen and (max-width: 1200px) {
     .hcContainer {
         /* border: 1px dotted black; */
-        margin-left: 20px;
-        height: 500px;
+        margin-left: 40px;
+        height: 150px;
         margin-bottom: 20px;
     }
+
+    .justDaysContainer {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        /* border: 1px dotted red; */
+        justify-content: space-between;
+    }
 }
-
-
 
 @media screen and (max-width: 767px) {
     .hcHide {
         display: block;
         visibility: visible;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .justDaysContainer {
+        flex-direction: column;
+    }
+
+    .hcContainer {
+        height: 250px;
     }
 }

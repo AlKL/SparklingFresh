@@ -8,7 +8,7 @@ const Services = () => {
         <>
             <div className="services sectionWrapper">
                 <div className='sectionWrapperWidth cardContainer'>
-                    <div className='serviceCard animate__animated'>
+                    <div className='serviceCard'>
                         <div className='serviceCardContainer'>
                             <div className='leftServiceCard'>
                                 <div className='topServiceCard'>
@@ -18,7 +18,7 @@ const Services = () => {
                                 <div className='midServiceCard'>
                                     <h3>Buy a full bottle of water to take home with you.</h3>
                                 </div>
-                                <div className='btmServiceCard animate__animated'>
+                                <div className='btmServiceCard'>
                                     <h1>$14</h1>
                                 </div>
                             </div>
@@ -30,7 +30,7 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className='serviceCard animate__animated'>
+                    <div className='serviceCard'>
                         <div className='serviceCardContainer'>
                             <div className='leftServiceCard'>
                                 <div className='topServiceCard'>
@@ -40,7 +40,7 @@ const Services = () => {
                                 <div className='midServiceCard'>
                                     <h3>You can bring the bottle back and get a full refill.</h3>
                                 </div>
-                                <div className='btmServiceCard animate__animated'>
+                                <div className='btmServiceCard'>
                                     <h1>$4</h1>
                                 </div>
                             </div>
@@ -52,16 +52,16 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className='serviceCard animate__animated'>
+                    <div className='serviceCard'>
                         <div className='serviceCardContainer'>
                             <div className='leftServiceCard'>
                                 <div className='topServiceCard'>
                                     <p>Just want an empty bottle? Sure!</p>
                                 </div>
                                 <div className='midServiceCard'>
-                                    <h3>Bring it to fill water whenever you want.</h3>
+                                    <h3>Bring the bottle to fill water when you please.</h3>
                                 </div>
-                                <div className='btmServiceCard animate__animated'>
+                                <div className='btmServiceCard'>
                                     <h1>$10</h1>
                                 </div>
                             </div>

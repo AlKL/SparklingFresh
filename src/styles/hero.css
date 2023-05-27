@@ -106,6 +106,7 @@
 
     .heroContainer {
         height: 665px;
+        /* justify-content: space-around; */
     }
 
     .gradient {
@@ -126,6 +127,7 @@
     .heroRightContainer {
         /* border: 1px dotted red; */
         margin: 0 auto;
+        padding-top: 50px;
     }
 
     .topText {
@@ -156,7 +158,13 @@
     }
 
     .topText {
-        /* width: 100%; */
+        width: 90%;
+    }
+
+    .heroLeftContainer p{
+        /* text-align: center; */
+        /* justify-content: center; */
+        /* align-items: center; */
     }
 }
 

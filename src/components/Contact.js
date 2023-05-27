@@ -8,7 +8,6 @@ import hands from '../images/hands.png'
 // Validation ideas
 // Name - if name is never entered ie length > 0, then don't show the error.
 // Show the error if they submit with length == 0
-// Animate it as well
 
 
 // Email - if

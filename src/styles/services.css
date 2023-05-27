@@ -70,10 +70,6 @@
     width: 100px;
 }
 
-.animate__animated:hover .btmServiceCard {
-    animation-name: pulse;
-}
-
 /* 1200 to 1001 */
 @media screen and (max-width: 1200px) {
     .serviceCard {
