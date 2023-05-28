@@ -51,6 +51,19 @@
 
 @media screen and (max-width: 767px) {
     .footerContainer {
-        height: 300px;
+        height: 350px;
+        /* justify-content: baseline; */
+        /* flex-direction: column-reverse; */
+        /* border: 1px solid red; */
+    }
+
+    .rightFooter {
+        position: relative;
+    }
+
+    .iconContainer {
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 }

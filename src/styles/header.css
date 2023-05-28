@@ -203,10 +203,14 @@ a:hover {
     }
 
     .newBanner {
-        width: 230px;
+        width: 220px;
     }
 
     .newBannerTop h3 {
-        font-size: 20px;
+        font-size: 1.2rem;
+    }
+
+    .newBannerMid p {
+        font-size: 1rem;
     }
 }

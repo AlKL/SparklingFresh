@@ -179,4 +179,7 @@
         font-size: .9rem;
     }
 
+    .topText p {
+        font-size: 1rem;
+    }
 }
