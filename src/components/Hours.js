@@ -22,7 +22,9 @@ const Hours = () => {
                 <div className="sectionWrapper">
                     <div className="sectionWrapperWidth">
                         <div className="hcContainer">
-                            <h3>Business hours</h3>
+                            <div className='bzHours'>
+                                <h3>Business hours</h3>
+                            </div>
 
                             <div className='justDaysContainer'>
                                 <div className='hcDayContainer'>
@@ -34,7 +36,7 @@ const Hours = () => {
                                     </div>
                                 </div>
 
-                                <div className='verticalDivider'></div>
+                                {/* <div className='verticalDivider'></div> */}
 
                                 <div className='hcDayContainer'>
                                     <div className='hcDayOfWeek'>
@@ -45,7 +47,7 @@ const Hours = () => {
                                     </div>
                                 </div>
 
-                                <div className='verticalDivider'></div>
+                                {/* <div className='verticalDivider'></div> */}
 
                                 <div className='hcDayContainer'>
                                     <div className='hcDayOfWeek'>

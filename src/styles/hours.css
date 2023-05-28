@@ -60,6 +60,27 @@
     }
 
     .hcContainer {
-        height: 250px;
+        height: 200px;
+        display: flex;
+    }
+
+    .bzHours {
+        width: 80%;
+    }
+
+    .hcDayContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .bzHours h3 {
+        font-size: 1.8rem;
+    }
+
+    .bzHours {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
     }
 }
