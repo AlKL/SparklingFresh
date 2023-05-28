@@ -75,6 +75,8 @@
 
 .guide {
     color: crimson;
+    /* font-size: 23px; */
+    font-weight: bold;
 }
 
 .aboutPic0 img {

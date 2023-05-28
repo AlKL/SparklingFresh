@@ -146,6 +146,10 @@ textarea {
 }
 
 @media screen and (max-width: 800px) {
+    .formSectionContainer {
+        height: 100%;
+    }
+
     .formTitle h1 {
         font-size: 1.8rem ;
     }
@@ -170,7 +174,21 @@ textarea {
         font-size: 1.4rem;
     }
 
+    .labelContainer {
+        height: 100%;
+        /* margin-bottom: 50px; */
+    }
 
+    .formBackground {
+        margin: 25px 0;
+    }
+
+    .thankYouContainer {
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 725px) {
