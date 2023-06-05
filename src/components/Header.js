@@ -35,15 +35,7 @@ const Header = () => {
         <>
             <div className='sectionWrapper'>
                 <div className="sectionWrapperWidth">
-
-
-
-
-
                     <div className='header'>
-
-
-
                         <div className='newContainer'>
                             <div className='logoContainer'>
                                 <Link to='/'><img src={logo} alt='Icon with full five gallon water bottle.'></img></Link>
