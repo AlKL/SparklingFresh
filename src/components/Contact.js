@@ -86,21 +86,15 @@ const Questionnaire = () => {
             return;
         }
 
-        console.log('1');
-
         emailjs.sendForm(process.env.REACT_APP_EMAIL_JS_SERVICE_ID,
             process.env.REACT_APP_EMAIL_JS_TEMPLATE_ID,
             form.current,
             process.env.REACT_APP_EMAIL_JS_API_KEY)
             .then((result) => {
-                console.log(result.text);
                 setIsSubmitted(true);
             }, (error) => {
                 console.log(error.text);
             });
-
-        console.log('2');
-
     };
 
     function onCaptchaChange() {

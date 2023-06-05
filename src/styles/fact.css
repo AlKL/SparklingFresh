@@ -1,6 +1,5 @@
 .factSectionContainer {
     height: 180px;
-    margin: 20px 0;
     color: white;
     font-weight: bold;
     padding: 25px 0;
@@ -66,6 +65,11 @@
 
     .factImg {
         top: 0;
+    }
+
+    .factSectionContainer {
+        margin-top: 50px;
+        margin-bottom: 25px;
     }
 }
 

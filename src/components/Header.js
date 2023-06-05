@@ -28,7 +28,6 @@ const Header = () => {
 
     const handleBurgerClick = () => {
         setNavOpen(!navOpen);
-        console.log(navOpen)
     }
 
 

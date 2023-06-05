@@ -1,6 +1,7 @@
 .services {
-    height: 370px;
+    /* height: 370px; */
     /* background-color: whitesmoke; */
+    margin: 50px 0;
 }
 
 .cardContainer {
@@ -115,6 +116,7 @@
     .services {
         height: 770px;
         /* border: 1px dotted red; */
+        margin: 0;
     }
 
     .serviceCard {

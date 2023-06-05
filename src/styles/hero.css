@@ -105,7 +105,8 @@
     }
 
     .heroContainer {
-        height: 665px;
+        /* margin: 50px 0; */
+        /* height: 665px; */
         /* justify-content: space-around; */
     }
 
