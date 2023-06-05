@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/SparklingFresh/static/css/main.3fedb7c4.css",
-    "main.js": "/SparklingFresh/static/js/main.0eea8766.js",
-    "static/media/store.png": "/SparklingFresh/static/media/store.7ec819358fa038709454.png",
-    "static/media/design.svg": "/SparklingFresh/static/media/design.a6a19358d187dc7ae7ff1eadcddce5f5.svg",
-    "static/media/fillingWater.png": "/SparklingFresh/static/media/fillingWater.db09fcff9ba68679d081.png",
-    "static/media/tanks.png": "/SparklingFresh/static/media/tanks.06c90bd30b44752c28f1.png",
-    "static/media/logo.png": "/SparklingFresh/static/media/logo.215604374c6c1349bb24.png",
-    "static/media/tabletop.png": "/SparklingFresh/static/media/tabletop.4e393aad45dd970953df.png",
-    "static/media/pumpBox.png": "/SparklingFresh/static/media/pumpBox.f3fcc3263238e173a868.png",
-    "static/media/cupsBox.png": "/SparklingFresh/static/media/cupsBox.9b979026be92d8a2c28c.png",
-    "static/media/dispenseBox.png": "/SparklingFresh/static/media/dispenseBox.143a26c965d9b3d46540.png",
-    "static/media/key.png": "/SparklingFresh/static/media/key.7e560dcf248655a6d551.png",
-    "static/media/wave.png": "/SparklingFresh/static/media/wave.dee648757c0af30379a3.png",
-    "static/media/facts.png": "/SparklingFresh/static/media/facts.6eccbc5faa36f7765714.png",
-    "static/media/tap.png": "/SparklingFresh/static/media/tap.498f17671a388d122e74.png",
-    "static/media/hands.png": "/SparklingFresh/static/media/hands.a4c449ea1ab807778e18.png",
-    "static/media/googleMapsIcon.png": "/SparklingFresh/static/media/googleMapsIcon.5601c337676eef6ab244.png",
-    "static/media/yelpIcon.png": "/SparklingFresh/static/media/yelpIcon.797ec8d6b48c9b4fda3f.png",
-    "static/media/bottle.png": "/SparklingFresh/static/media/bottle.8392818908c0819fe87b.png",
-    "index.html": "/SparklingFresh/index.html",
-    "main.3fedb7c4.css.map": "/SparklingFresh/static/css/main.3fedb7c4.css.map",
-    "main.0eea8766.js.map": "/SparklingFresh/static/js/main.0eea8766.js.map"
+    "main.css": "/static/css/main.3fedb7c4.css",
+    "main.js": "/static/js/main.9db06850.js",
+    "static/media/store.png": "/static/media/store.7ec819358fa038709454.png",
+    "static/media/design.svg": "/static/media/design.a6a19358d187dc7ae7ff1eadcddce5f5.svg",
+    "static/media/fillingWater.png": "/static/media/fillingWater.db09fcff9ba68679d081.png",
+    "static/media/tanks.png": "/static/media/tanks.06c90bd30b44752c28f1.png",
+    "static/media/logo.png": "/static/media/logo.215604374c6c1349bb24.png",
+    "static/media/tabletop.png": "/static/media/tabletop.4e393aad45dd970953df.png",
+    "static/media/pumpBox.png": "/static/media/pumpBox.f3fcc3263238e173a868.png",
+    "static/media/cupsBox.png": "/static/media/cupsBox.9b979026be92d8a2c28c.png",
+    "static/media/dispenseBox.png": "/static/media/dispenseBox.143a26c965d9b3d46540.png",
+    "static/media/key.png": "/static/media/key.7e560dcf248655a6d551.png",
+    "static/media/wave.png": "/static/media/wave.dee648757c0af30379a3.png",
+    "static/media/facts.png": "/static/media/facts.6eccbc5faa36f7765714.png",
+    "static/media/tap.png": "/static/media/tap.498f17671a388d122e74.png",
+    "static/media/hands.png": "/static/media/hands.a4c449ea1ab807778e18.png",
+    "static/media/googleMapsIcon.png": "/static/media/googleMapsIcon.5601c337676eef6ab244.png",
+    "static/media/yelpIcon.png": "/static/media/yelpIcon.797ec8d6b48c9b4fda3f.png",
+    "static/media/bottle.png": "/static/media/bottle.8392818908c0819fe87b.png",
+    "index.html": "/index.html",
+    "main.3fedb7c4.css.map": "/static/css/main.3fedb7c4.css.map",
+    "main.9db06850.js.map": "/static/js/main.9db06850.js.map"
   },
   "entrypoints": [
     "static/css/main.3fedb7c4.css",
-    "static/js/main.0eea8766.js"
+    "static/js/main.9db06850.js"
   ]
 }
