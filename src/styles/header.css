@@ -169,7 +169,7 @@ a:hover {
     .clickOffMenu {
         position: fixed;
         /* border: 2px dotted red; */
-        /* top: 343px; */
+        top: 343px;
         bottom: 0%;
         left: 0;
         right: 0;
@@ -200,7 +200,7 @@ a:hover {
     }
 
     .clickOffMenu {
-        /* top: 342px; */
+        top: 342px;
     }
 
     .newBanner {
