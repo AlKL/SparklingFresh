@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3fedb7c4.css",
-    "main.js": "/static/js/main.9db06850.js",
+    "main.js": "/static/js/main.241922c1.js",
     "static/media/store.png": "/static/media/store.7ec819358fa038709454.png",
     "static/media/design.svg": "/static/media/design.a6a19358d187dc7ae7ff1eadcddce5f5.svg",
     "static/media/fillingWater.png": "/static/media/fillingWater.db09fcff9ba68679d081.png",
@@ -21,10 +21,10 @@
     "static/media/bottle.png": "/static/media/bottle.8392818908c0819fe87b.png",
     "index.html": "/index.html",
     "main.3fedb7c4.css.map": "/static/css/main.3fedb7c4.css.map",
-    "main.9db06850.js.map": "/static/js/main.9db06850.js.map"
+    "main.241922c1.js.map": "/static/js/main.241922c1.js.map"
   },
   "entrypoints": [
     "static/css/main.3fedb7c4.css",
-    "static/js/main.9db06850.js"
+    "static/js/main.241922c1.js"
   ]
 }
