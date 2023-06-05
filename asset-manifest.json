@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SparklingFresh/static/css/main.53e5a7db.css",
+    "main.css": "/SparklingFresh/static/css/main.0e36c5ff.css",
     "main.js": "/SparklingFresh/static/js/main.34e56e1b.js",
     "static/media/store.png": "/SparklingFresh/static/media/store.7ec819358fa038709454.png",
     "static/media/design.svg": "/SparklingFresh/static/media/design.a6a19358d187dc7ae7ff1eadcddce5f5.svg",
@@ -20,11 +20,11 @@
     "static/media/yelpIcon.png": "/SparklingFresh/static/media/yelpIcon.797ec8d6b48c9b4fda3f.png",
     "static/media/bottle.png": "/SparklingFresh/static/media/bottle.8392818908c0819fe87b.png",
     "index.html": "/SparklingFresh/index.html",
-    "main.53e5a7db.css.map": "/SparklingFresh/static/css/main.53e5a7db.css.map",
+    "main.0e36c5ff.css.map": "/SparklingFresh/static/css/main.0e36c5ff.css.map",
     "main.34e56e1b.js.map": "/SparklingFresh/static/js/main.34e56e1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.53e5a7db.css",
+    "static/css/main.0e36c5ff.css",
     "static/js/main.34e56e1b.js"
   ]
 }
