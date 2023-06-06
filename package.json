@@ -23,7 +23,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "add-domain": "echo \"www.sparklingfresh.ca\" > build/CNAME",
+    "deploy-with-domain": "npm run add-domain && npm run deploy"
   },
   "browserslist": {
     "production": [
