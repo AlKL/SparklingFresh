@@ -1,0 +1,65 @@
+.nfContainer {
+    height: 77vh;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px dotted red; */
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+}
+
+.nfContainer h1 {
+    font-size: 3rem;
+    color: #0D3472;
+}
+
+.nfContainer h2 {
+    font-size: 2.3rem;
+    padding: 15px 0;
+    color: #026160;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #0D3472;
+    color: white;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .nfContainer {
+        width: 90%;
+    }
+
+    .nfContainer h1 {
+        font-size: 3rem;
+    }
+
+    .nfContainer h2 {
+        font-size: 1.4rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 487px) {
+    .nfContainer {
+        width: 90%;
+        height: 60vh;
+    }
+
+    .nfContainer h1 {
+        font-size: 1.8rem;
+    }
+
+    .nfContainer h2 {
+        font-size: .9rem;
+    }
+
+    button {
+        font-size: 0.8rem;
+    }
+}
