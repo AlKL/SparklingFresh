@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3fedb7c4.css",
-    "main.js": "/static/js/main.241922c1.js",
+    "main.css": "/static/css/main.35d1c2ce.css",
+    "main.js": "/static/js/main.1c81a2ea.js",
     "static/media/store.png": "/static/media/store.7ec819358fa038709454.png",
     "static/media/design.svg": "/static/media/design.a6a19358d187dc7ae7ff1eadcddce5f5.svg",
     "static/media/fillingWater.png": "/static/media/fillingWater.db09fcff9ba68679d081.png",
@@ -20,11 +20,11 @@
     "static/media/yelpIcon.png": "/static/media/yelpIcon.797ec8d6b48c9b4fda3f.png",
     "static/media/bottle.png": "/static/media/bottle.8392818908c0819fe87b.png",
     "index.html": "/index.html",
-    "main.3fedb7c4.css.map": "/static/css/main.3fedb7c4.css.map",
-    "main.241922c1.js.map": "/static/js/main.241922c1.js.map"
+    "main.35d1c2ce.css.map": "/static/css/main.35d1c2ce.css.map",
+    "main.1c81a2ea.js.map": "/static/js/main.1c81a2ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fedb7c4.css",
-    "static/js/main.241922c1.js"
+    "static/css/main.35d1c2ce.css",
+    "static/js/main.1c81a2ea.js"
   ]
 }
