@@ -195,6 +195,10 @@ textarea {
     .thankYouContainer {
         width: 80%;
     }
+
+    .thankYouContainer h3 img {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 500px) {
